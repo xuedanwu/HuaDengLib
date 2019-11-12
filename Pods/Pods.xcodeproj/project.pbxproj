@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A221BB1AF3E8A6A332D73764187015C /* Pods-HuaDeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5D2F27B9605791B2EEE4E2F028F64 /* Pods-HuaDeng-dummy.m */; };
-		ECA66C172C727D7491BEB089C0317384 /* Pods-HuaDengInHouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F07176E477B10CFC0EC51DBE7B42D /* Pods-HuaDengInHouse-dummy.m */; };
+		598348193C45ADA73B458D7EBE2C6874 /* Pods-HuaDengInHouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F07176E477B10CFC0EC51DBE7B42D /* Pods-HuaDengInHouse-dummy.m */; };
+		E7DD428F697D6584554F460E2ACEA58D /* Pods-HuaDeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5D2F27B9605791B2EEE4E2F028F64 /* Pods-HuaDeng-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4191277A70F83B715A9A8F14F6D4AE78 /* PBXContainerItemProxy */ = {
+		2BAEBE7473E243CFE313FA9E4DF53A2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = EB34873684572E4C0F45CF3A5BB89D4D;
-			remoteInfo = HuaDengLib;
+			remoteGlobalIDString = 7BB319444F40EEC0E595DE0E0A26BB98;
+			remoteInfo = "HuaDengLib-AppStore";
+		};
+		F56C4C35800F9D7B9E3B44A05DE973CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 23926119A00D042BE45B6C0F1B78D78B;
+			remoteInfo = "HuaDengLib-Enterprise";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,14 +46,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B2C4F6C8DD12D7139661A9D07BF44FD /* Frameworks */ = {
+		34BA7891A6997CD00D6DF6D1B78E8A02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7ECAFEE59A0138B7BAF06479A779E5 /* Frameworks */ = {
+		AAF5489D07E43152D1A039031A5ABA73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,14 +136,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6026FDF0C9AD94183E9CC15E54DC0C6B /* Headers */ = {
+		4D071EA3ECA965422771116EAE334070 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61F4620AB9A151281811C39325564387 /* Headers */ = {
+		4F6B69D20CEF49AC5B89DC13F7F1F30A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,15 +155,16 @@
 /* Begin PBXNativeTarget section */
 		29F92F0DE2FFBD5E18DEC06B49D0E385 /* Pods-HuaDengInHouse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C394E5B522F51E9C0885FBDAF7607BCF /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */;
+			buildConfigurationList = 5B01307FBE2566E8C61007CFF4C4D2C9 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */;
 			buildPhases = (
-				6026FDF0C9AD94183E9CC15E54DC0C6B /* Headers */,
-				88121D3EDC773117625FDF5D5D164218 /* Sources */,
-				4E7ECAFEE59A0138B7BAF06479A779E5 /* Frameworks */,
+				4F6B69D20CEF49AC5B89DC13F7F1F30A /* Headers */,
+				8742A6260914FBB112CF3C5EA655DB1F /* Sources */,
+				34BA7891A6997CD00D6DF6D1B78E8A02 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E93878C673C04BD215E7BC18C998E67D /* PBXTargetDependency */,
 			);
 			name = "Pods-HuaDengInHouse";
 			productName = "Pods-HuaDengInHouse";
@@ -165,16 +173,16 @@
 		};
 		4D179B355877CA8E65C0E0F9FA8CE9FC /* Pods-HuaDeng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C38B1DEC7395F3868378230E19583738 /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */;
+			buildConfigurationList = 407D720698B1D07514570A2E3AEAFC6A /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */;
 			buildPhases = (
-				61F4620AB9A151281811C39325564387 /* Headers */,
-				BDAB4BC3D4C3C75C92F499C536E1A2AB /* Sources */,
-				3B2C4F6C8DD12D7139661A9D07BF44FD /* Frameworks */,
+				4D071EA3ECA965422771116EAE334070 /* Headers */,
+				C23632C51BAFD118A200CBC68187F380 /* Sources */,
+				AAF5489D07E43152D1A039031A5ABA73 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0CF388487A7A62A1323A35E870214123 /* PBXTargetDependency */,
+				28D4338B6F7FD85F609B7308537F0082 /* PBXTargetDependency */,
 			);
 			name = "Pods-HuaDeng";
 			productName = "Pods-HuaDeng";
@@ -215,55 +223,39 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88121D3EDC773117625FDF5D5D164218 /* Sources */ = {
+		8742A6260914FBB112CF3C5EA655DB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA66C172C727D7491BEB089C0317384 /* Pods-HuaDengInHouse-dummy.m in Sources */,
+				598348193C45ADA73B458D7EBE2C6874 /* Pods-HuaDengInHouse-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDAB4BC3D4C3C75C92F499C536E1A2AB /* Sources */ = {
+		C23632C51BAFD118A200CBC68187F380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A221BB1AF3E8A6A332D73764187015C /* Pods-HuaDeng-dummy.m in Sources */,
+				E7DD428F697D6584554F460E2ACEA58D /* Pods-HuaDeng-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CF388487A7A62A1323A35E870214123 /* PBXTargetDependency */ = {
+		28D4338B6F7FD85F609B7308537F0082 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HuaDengLib;
-			targetProxy = 4191277A70F83B715A9A8F14F6D4AE78 /* PBXContainerItemProxy */;
+			name = "HuaDengLib-AppStore";
+			targetProxy = 2BAEBE7473E243CFE313FA9E4DF53A2D /* PBXContainerItemProxy */;
+		};
+		E93878C673C04BD215E7BC18C998E67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HuaDengLib-Enterprise";
+			targetProxy = F56C4C35800F9D7B9E3B44A05DE973CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		385966CFD3481B90800E86071174AB61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFCB5A6C41B9A273586FD1A53967BEEC /* Pods-HuaDengInHouse.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46244229EC55E5AFC7B090A0E73934C0 /* Release */ = {
+		02D4E32F7DC9132A55C5CDB8609880E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C016E487FC6DA427E3776685246FDAE8 /* Pods-HuaDengInHouse.release.xcconfig */;
 			buildSettings = {
@@ -284,6 +276,27 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		4489AEE5F5DA3B6FFEC71CF6276ED305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4696A05EE246C01F150FC46833F014A7 /* Pods-HuaDeng.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -409,28 +422,7 @@
 			};
 			name = Debug;
 		};
-		9EEE3C6FA20E88E6F800988A4788446A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4696A05EE246C01F150FC46833F014A7 /* Pods-HuaDeng.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DC30FFE9971A0ACE82199D8F6F746D8C /* Release */ = {
+		F26D5E4EF0859CE52B48E737CB619227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D473FDCD822C25416D386ED19FFC939 /* Pods-HuaDeng.release.xcconfig */;
 			buildSettings = {
@@ -452,9 +444,39 @@
 			};
 			name = Release;
 		};
+		F3CAFC2787CF11ED84517A652D17D0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCB5A6C41B9A273586FD1A53967BEEC /* Pods-HuaDengInHouse.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		407D720698B1D07514570A2E3AEAFC6A /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489AEE5F5DA3B6FFEC71CF6276ED305 /* Debug */,
+				F26D5E4EF0859CE52B48E737CB619227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -464,20 +486,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C38B1DEC7395F3868378230E19583738 /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */ = {
+		5B01307FBE2566E8C61007CFF4C4D2C9 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EEE3C6FA20E88E6F800988A4788446A /* Debug */,
-				DC30FFE9971A0ACE82199D8F6F746D8C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C394E5B522F51E9C0885FBDAF7607BCF /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				385966CFD3481B90800E86071174AB61 /* Debug */,
-				46244229EC55E5AFC7B090A0E73934C0 /* Release */,
+				F3CAFC2787CF11ED84517A652D17D0B4 /* Debug */,
+				02D4E32F7DC9132A55C5CDB8609880E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -57,7 +57,7 @@ end
 
 target 'HuaDengInHouse' do
 #    my_pods
-#    pod 'HuaDengLib/Enterprise', :path => '../HuaDeng/HuaDengLib'
+    pod 'HuaDengLib/Enterprise', :path => '../HuaDeng/HuaDengLib'
 end
 
 

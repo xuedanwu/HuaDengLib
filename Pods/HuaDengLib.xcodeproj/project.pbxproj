@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13EE1BEDDB5BE9700AFE9BC25BFCAC0E /* HuaDengLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0799D0AEEB3B85AC7888130E1BCA1164 /* HuaDengLib-dummy.m */; };
-		2336F8B1ACC2DB37C1913BEEFD3A64A8 /* SLChatGifModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D336E5A823731C054845B2424108B765 /* SLChatGifModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		724B01BA2B93BB4ED58B1D869659DBD2 /* SLChatGifModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EED3668E48AB99E49489AB5F1E07CE51 /* SLChatGifModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D6603C9FE4FB07C9EEF5F88ADF7C52B /* SLChatGifModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BB30FE311B9428A9717E1080137AD /* SLChatGifModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1C03504F031BE6B624F74ACAAF2BB779 /* LoveNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C06525294548E7CA33EEB516EE74CF8 /* LoveNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68B4AB5C0CA15AB022A749224326B95E /* HuaDengLib-AppStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438F930E7B111D0E683A787DEEB3E77E /* HuaDengLib-AppStore-dummy.m */; };
+		A3A731173C23B1F33A4BEC101F7A13CB /* LoveNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7036D018473D761D3FA47DDB448FC /* LoveNavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0AC90A1D63AC50E64D050AC868ABFCE /* SLChatGifModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF18683504F94BFE507BB8BEAF2001E /* SLChatGifModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F848493634AEA41D8EA728FFA804B78A /* HuaDengLib-Enterprise-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8FDFE13DF65CEC83422C59F0E3D08 /* HuaDengLib-Enterprise-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0799D0AEEB3B85AC7888130E1BCA1164 /* HuaDengLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaDengLib-dummy.m"; sourceTree = "<group>"; };
-		0FAFFC5ECAB92A782B0D8083F51B5458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		164E72F63943E347290D5BFCEB28DB2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3FC7768DCD3C60EE6FF8806D564F0586 /* HuaDengLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HuaDengLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6DCA531CF9A6F1B4612896AF2B01CABF /* libHuaDengLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHuaDengLib.a; path = libHuaDengLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A20A67077B5C6E042D1711551770D3D0 /* HuaDengLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaDengLib-prefix.pch"; sourceTree = "<group>"; };
-		C38733042F4168D2C06AB5BFDC77096C /* HuaDengLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaDengLib.xcconfig; sourceTree = "<group>"; };
-		D336E5A823731C054845B2424108B765 /* SLChatGifModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLChatGifModel.m; path = HuaDengLib/Classes/AppStore/SLChatGifModel.m; sourceTree = "<group>"; };
-		EED3668E48AB99E49489AB5F1E07CE51 /* SLChatGifModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLChatGifModel.h; path = HuaDengLib/Classes/AppStore/SLChatGifModel.h; sourceTree = "<group>"; };
+		1C06525294548E7CA33EEB516EE74CF8 /* LoveNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoveNavigationController.h; path = HuaDengLib/Classes/Enterprise/LoveNavigationController.h; sourceTree = "<group>"; };
+		3EF8FDFE13DF65CEC83422C59F0E3D08 /* HuaDengLib-Enterprise-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HuaDengLib-Enterprise-dummy.m"; path = "../HuaDengLib-Enterprise/HuaDengLib-Enterprise-dummy.m"; sourceTree = "<group>"; };
+		438F930E7B111D0E683A787DEEB3E77E /* HuaDengLib-AppStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaDengLib-AppStore-dummy.m"; sourceTree = "<group>"; };
+		44CAEB4A6B141190870923F53C80DC11 /* HuaDengLib-Enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HuaDengLib-Enterprise.xcconfig"; path = "../HuaDengLib-Enterprise/HuaDengLib-Enterprise.xcconfig"; sourceTree = "<group>"; };
+		5FF7036D018473D761D3FA47DDB448FC /* LoveNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoveNavigationController.m; path = HuaDengLib/Classes/Enterprise/LoveNavigationController.m; sourceTree = "<group>"; };
+		8273A7247769C56A59423FE58F3D546F /* HuaDengLib-AppStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaDengLib-AppStore-prefix.pch"; sourceTree = "<group>"; };
+		8F9BB30FE311B9428A9717E1080137AD /* SLChatGifModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLChatGifModel.m; path = HuaDengLib/Classes/AppStore/SLChatGifModel.m; sourceTree = "<group>"; };
+		9CF18683504F94BFE507BB8BEAF2001E /* SLChatGifModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLChatGifModel.h; path = HuaDengLib/Classes/AppStore/SLChatGifModel.h; sourceTree = "<group>"; };
+		9D50EA962A9AB1D59FEA349D05A8E3D6 /* HuaDengLib-AppStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HuaDengLib-AppStore.xcconfig"; sourceTree = "<group>"; };
+		AD66F9948F4AE5A749E5FB3316B92EAB /* libHuaDengLib-Enterprise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHuaDengLib-Enterprise.a"; path = "libHuaDengLib-Enterprise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E8600B95970DF58F57F2687C9F94EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D2E009A5F618F08A50778A72242934B2 /* HuaDengLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HuaDengLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D840D17008136CDE03334168C5472988 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EA1F43CBEC63D313440273295201309B /* HuaDengLib-Enterprise-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HuaDengLib-Enterprise-prefix.pch"; path = "../HuaDengLib-Enterprise/HuaDengLib-Enterprise-prefix.pch"; sourceTree = "<group>"; };
+		EBC0506D5815561379E95F430AC3D8C2 /* libHuaDengLib-AppStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHuaDengLib-AppStore.a"; path = "libHuaDengLib-AppStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA482204CCC6E08425C16C5F21EADC01 /* Frameworks */ = {
+		04D512D84026CE834CCB32CB355115B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FF0588B6BB2D29B25FB5CE54903BB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,14 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04686083DD70E79FF8764031841E0FD7 /* Pod */ = {
+		0F3ECD34BB7437030673546C78569B9D /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
-				3FC7768DCD3C60EE6FF8806D564F0586 /* HuaDengLib.podspec */,
-				164E72F63943E347290D5BFCEB28DB2F /* LICENSE */,
-				0FAFFC5ECAB92A782B0D8083F51B5458 /* README.md */,
+				9CF18683504F94BFE507BB8BEAF2001E /* SLChatGifModel.h */,
+				8F9BB30FE311B9428A9717E1080137AD /* SLChatGifModel.m */,
 			);
-			name = Pod;
+			name = AppStore;
+			sourceTree = "<group>";
+		};
+		132D39E655D568DE26FDD92CB015792A /* HuaDengLib */ = {
+			isa = PBXGroup;
+			children = (
+				0F3ECD34BB7437030673546C78569B9D /* AppStore */,
+				930CF37F8074250AF06FF033E31871C0 /* Enterprise */,
+				FD255D6038E3737E9875850665B27872 /* Pod */,
+				94272DEEE739AA3558887CDDF8A6512C /* Support Files */,
+			);
+			name = HuaDengLib;
+			path = ../HuaDengLib;
 			sourceTree = "<group>";
 		};
 		57A2E980387CF9E45803D0B646B28490 /* Frameworks */ = {
@@ -56,79 +83,107 @@
 			isa = PBXGroup;
 			children = (
 				57A2E980387CF9E45803D0B646B28490 /* Frameworks */,
-				ADCB45C8B10A47C13E4613787B905029 /* HuaDengLib */,
-				E3AED9C61EC2BC4245CC0C09ED468056 /* Products */,
+				132D39E655D568DE26FDD92CB015792A /* HuaDengLib */,
+				8DEF442B270824D52BE6A8487362DD76 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ADCB45C8B10A47C13E4613787B905029 /* HuaDengLib */ = {
+		8DEF442B270824D52BE6A8487362DD76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8348AC201EFAC8B0DB7CEA961C339C9 /* AppStore */,
-				04686083DD70E79FF8764031841E0FD7 /* Pod */,
-				F9901980A4A2F39AD22A4CBE26ABF893 /* Support Files */,
-			);
-			name = HuaDengLib;
-			path = ../HuaDengLib;
-			sourceTree = "<group>";
-		};
-		D8348AC201EFAC8B0DB7CEA961C339C9 /* AppStore */ = {
-			isa = PBXGroup;
-			children = (
-				EED3668E48AB99E49489AB5F1E07CE51 /* SLChatGifModel.h */,
-				D336E5A823731C054845B2424108B765 /* SLChatGifModel.m */,
-			);
-			name = AppStore;
-			sourceTree = "<group>";
-		};
-		E3AED9C61EC2BC4245CC0C09ED468056 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6DCA531CF9A6F1B4612896AF2B01CABF /* libHuaDengLib.a */,
+				EBC0506D5815561379E95F430AC3D8C2 /* libHuaDengLib-AppStore.a */,
+				AD66F9948F4AE5A749E5FB3316B92EAB /* libHuaDengLib-Enterprise.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9901980A4A2F39AD22A4CBE26ABF893 /* Support Files */ = {
+		930CF37F8074250AF06FF033E31871C0 /* Enterprise */ = {
 			isa = PBXGroup;
 			children = (
-				C38733042F4168D2C06AB5BFDC77096C /* HuaDengLib.xcconfig */,
-				0799D0AEEB3B85AC7888130E1BCA1164 /* HuaDengLib-dummy.m */,
-				A20A67077B5C6E042D1711551770D3D0 /* HuaDengLib-prefix.pch */,
+				1C06525294548E7CA33EEB516EE74CF8 /* LoveNavigationController.h */,
+				5FF7036D018473D761D3FA47DDB448FC /* LoveNavigationController.m */,
+			);
+			name = Enterprise;
+			sourceTree = "<group>";
+		};
+		94272DEEE739AA3558887CDDF8A6512C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D50EA962A9AB1D59FEA349D05A8E3D6 /* HuaDengLib-AppStore.xcconfig */,
+				438F930E7B111D0E683A787DEEB3E77E /* HuaDengLib-AppStore-dummy.m */,
+				8273A7247769C56A59423FE58F3D546F /* HuaDengLib-AppStore-prefix.pch */,
+				44CAEB4A6B141190870923F53C80DC11 /* HuaDengLib-Enterprise.xcconfig */,
+				3EF8FDFE13DF65CEC83422C59F0E3D08 /* HuaDengLib-Enterprise-dummy.m */,
+				EA1F43CBEC63D313440273295201309B /* HuaDengLib-Enterprise-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Pods/Target Support Files/HuaDengLib";
+			path = "../Pods/Target Support Files/HuaDengLib-AppStore";
+			sourceTree = "<group>";
+		};
+		FD255D6038E3737E9875850665B27872 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D2E009A5F618F08A50778A72242934B2 /* HuaDengLib.podspec */,
+				B4E8600B95970DF58F57F2687C9F94EF /* LICENSE */,
+				D840D17008136CDE03334168C5472988 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DACEC78802B4FFCF2B40D8C01E574AAE /* Headers */ = {
+		9188D4873F009DC721D69288352C5D97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724B01BA2B93BB4ED58B1D869659DBD2 /* SLChatGifModel.h in Headers */,
+				B0AC90A1D63AC50E64D050AC868ABFCE /* SLChatGifModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC0DF8E295D953F646646BA84E97EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C03504F031BE6B624F74ACAAF2BB779 /* LoveNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EB34873684572E4C0F45CF3A5BB89D4D /* HuaDengLib */ = {
+		23926119A00D042BE45B6C0F1B78D78B /* HuaDengLib-Enterprise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04240AD58EED35057F27674C7A5601CE /* Build configuration list for PBXNativeTarget "HuaDengLib" */;
+			buildConfigurationList = E7BE7A30118EBBD5722FE2E98F17A74B /* Build configuration list for PBXNativeTarget "HuaDengLib-Enterprise" */;
 			buildPhases = (
-				DACEC78802B4FFCF2B40D8C01E574AAE /* Headers */,
-				C2EB74CB8E535FAC1044A10FA2EEC562 /* Sources */,
-				FA482204CCC6E08425C16C5F21EADC01 /* Frameworks */,
+				EEDC0DF8E295D953F646646BA84E97EA /* Headers */,
+				C717B3579AF9C11ED234FE4E31E5CCEF /* Sources */,
+				04D512D84026CE834CCB32CB355115B9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HuaDengLib;
-			productName = HuaDengLib;
-			productReference = 6DCA531CF9A6F1B4612896AF2B01CABF /* libHuaDengLib.a */;
+			name = "HuaDengLib-Enterprise";
+			productName = "HuaDengLib-Enterprise";
+			productReference = AD66F9948F4AE5A749E5FB3316B92EAB /* libHuaDengLib-Enterprise.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7BB319444F40EEC0E595DE0E0A26BB98 /* HuaDengLib-AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5417E1A452A4C3DF351A00C9598EF90C /* Build configuration list for PBXNativeTarget "HuaDengLib-AppStore" */;
+			buildPhases = (
+				9188D4873F009DC721D69288352C5D97 /* Headers */,
+				09AEF3F20F5C04DE7D3A5B1A83235D9C /* Sources */,
+				A8FF0588B6BB2D29B25FB5CE54903BB6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HuaDengLib-AppStore";
+			productName = "HuaDengLib-AppStore";
+			productReference = EBC0506D5815561379E95F430AC3D8C2 /* libHuaDengLib-AppStore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -149,28 +204,61 @@
 				Base,
 			);
 			mainGroup = 7F14D7BA0A2BE0F56770598D0F4D5C5E;
-			productRefGroup = E3AED9C61EC2BC4245CC0C09ED468056 /* Products */;
+			productRefGroup = 8DEF442B270824D52BE6A8487362DD76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB34873684572E4C0F45CF3A5BB89D4D /* HuaDengLib */,
+				7BB319444F40EEC0E595DE0E0A26BB98 /* HuaDengLib-AppStore */,
+				23926119A00D042BE45B6C0F1B78D78B /* HuaDengLib-Enterprise */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2EB74CB8E535FAC1044A10FA2EEC562 /* Sources */ = {
+		09AEF3F20F5C04DE7D3A5B1A83235D9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13EE1BEDDB5BE9700AFE9BC25BFCAC0E /* HuaDengLib-dummy.m in Sources */,
-				2336F8B1ACC2DB37C1913BEEFD3A64A8 /* SLChatGifModel.m in Sources */,
+				68B4AB5C0CA15AB022A749224326B95E /* HuaDengLib-AppStore-dummy.m in Sources */,
+				0D6603C9FE4FB07C9EEF5F88ADF7C52B /* SLChatGifModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C717B3579AF9C11ED234FE4E31E5CCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F848493634AEA41D8EA728FFA804B78A /* HuaDengLib-Enterprise-dummy.m in Sources */,
+				A3A731173C23B1F33A4BEC101F7A13CB /* LoveNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1279FD32790C90F47CA1C3731E2F2FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D50EA962A9AB1D59FEA349D05A8E3D6 /* HuaDengLib-AppStore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib-AppStore/HuaDengLib-AppStore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HuaDengLib;
+				PRODUCT_NAME = "HuaDengLib-AppStore";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		36DF096E63C8B99584DF0FA2F8E900D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -235,28 +323,29 @@
 			};
 			name = Debug;
 		};
-		70FE8AE3F90F7129684DB55B605A085A /* Debug */ = {
+		78F713B28BE0F611244D31914EC301A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C38733042F4168D2C06AB5BFDC77096C /* HuaDengLib.xcconfig */;
+			baseConfigurationReference = 44CAEB4A6B141190870923F53C80DC11 /* HuaDengLib-Enterprise.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib/HuaDengLib-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib-Enterprise/HuaDengLib-Enterprise-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = HuaDengLib;
-				PRODUCT_NAME = HuaDengLib;
+				PRODUCT_NAME = "HuaDengLib-Enterprise";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		B059DEECEC32256CF39992E2F3B194A4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -318,21 +407,21 @@
 			};
 			name = Release;
 		};
-		E192D094BC4809224AB9959B349B628B /* Release */ = {
+		B882D83BCECF8A0EF0A95D9D398BD261 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C38733042F4168D2C06AB5BFDC77096C /* HuaDengLib.xcconfig */;
+			baseConfigurationReference = 9D50EA962A9AB1D59FEA349D05A8E3D6 /* HuaDengLib-AppStore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib/HuaDengLib-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib-AppStore/HuaDengLib-AppStore-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = HuaDengLib;
-				PRODUCT_NAME = HuaDengLib;
+				PRODUCT_NAME = "HuaDengLib-AppStore";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -342,14 +431,37 @@
 			};
 			name = Release;
 		};
+		DF89B4457945DA866A13A7A53CBBE537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CAEB4A6B141190870923F53C80DC11 /* HuaDengLib-Enterprise.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaDengLib-Enterprise/HuaDengLib-Enterprise-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HuaDengLib;
+				PRODUCT_NAME = "HuaDengLib-Enterprise";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04240AD58EED35057F27674C7A5601CE /* Build configuration list for PBXNativeTarget "HuaDengLib" */ = {
+		5417E1A452A4C3DF351A00C9598EF90C /* Build configuration list for PBXNativeTarget "HuaDengLib-AppStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70FE8AE3F90F7129684DB55B605A085A /* Debug */,
-				E192D094BC4809224AB9959B349B628B /* Release */,
+				1279FD32790C90F47CA1C3731E2F2FD4 /* Debug */,
+				B882D83BCECF8A0EF0A95D9D398BD261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -359,6 +471,15 @@
 			buildConfigurations = (
 				36DF096E63C8B99584DF0FA2F8E900D9 /* Debug */,
 				B059DEECEC32256CF39992E2F3B194A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BE7A30118EBBD5722FE2E98F17A74B /* Build configuration list for PBXNativeTarget "HuaDengLib-Enterprise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF89B4457945DA866A13A7A53CBBE537 /* Debug */,
+				78F713B28BE0F611244D31914EC301A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
