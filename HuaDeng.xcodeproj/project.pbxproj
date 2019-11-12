@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5592B12A17A9F76B9C5A61 /* libPods-HuaDeng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */; };
+		7BBC0B2023792B58006A08EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B1F23792B58006A08EE /* AppDelegate.m */; };
+		7BBC0B2B23792B5A006A08EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC0B2A23792B5A006A08EE /* Assets.xcassets */; };
+		7BBC0B3123792B5A006A08EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B3023792B5A006A08EE /* main.m */; };
+		7BBC0B3B23792B5A006A08EE /* HuaDengTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B3A23792B5A006A08EE /* HuaDengTests.m */; };
+		7BBC0B4623792B5A006A08EE /* HuaDengUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B4523792B5A006A08EE /* HuaDengUITests.m */; };
+		7BBC0B572379350E006A08EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B1F23792B58006A08EE /* AppDelegate.m */; };
+		7BBC0B582379350E006A08EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0B3023792B5A006A08EE /* main.m */; };
+		7BBC0B5E2379350E006A08EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC0B2A23792B5A006A08EE /* Assets.xcassets */; };
+		7BBC0B69237936C0006A08EE /* HuaDengInHouse-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC0B68237936C0006A08EE /* HuaDengInHouse-Info.plist */; };
+		7BBC0BE6237943C6006A08EE /* HDLaunchHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0BE5237943C6006A08EE /* HDLaunchHander.m */; };
+		7BBC0BEB23794669006A08EE /* HDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0BEA23794669006A08EE /* HDBaseVC.m */; };
+		7BBC0BF523794A4F006A08EE /* HDBaseTabBarCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0BF423794A4F006A08EE /* HDBaseTabBarCtrl.m */; };
+		7BBC0BFB23794C88006A08EE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0BFA23794C88006A08EE /* UIColor+Extension.m */; };
+		7BBC0BFF23794EC8006A08EE /* HDFirstPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0BFE23794EC8006A08EE /* HDFirstPageVC.m */; };
+		7BBC0C0223794ED4006A08EE /* HDNearbyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0123794ED4006A08EE /* HDNearbyVC.m */; };
+		7BBC0C0523794EDE006A08EE /* HDVipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0423794EDE006A08EE /* HDVipVC.m */; };
+		7BBC0C0823794EE7006A08EE /* HDChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0723794EE7006A08EE /* HDChatVC.m */; };
+		7BBC0C0B23794EF0006A08EE /* HDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0A23794EF0006A08EE /* HDMineVC.m */; };
+		7BBC0C0E237950DE006A08EE /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0D237950DE006A08EE /* UIViewController+Extension.m */; };
+		E026645530D632DF0F67435A /* libPods-HuaDengInHouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */; };
+		E9E248B2561809CFB38132D6 /* libPods-HuaDeng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BBC0B3723792B5A006A08EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBC0B1323792B58006A08EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBC0B1A23792B58006A08EE;
+			remoteInfo = HuaDeng;
+		};
+		7BBC0B4223792B5A006A08EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBC0B1323792B58006A08EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBC0B1A23792B58006A08EE;
+			remoteInfo = HuaDeng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaDengInHouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDengInHouse.release.xcconfig"; path = "Target Support Files/Pods-HuaDengInHouse/Pods-HuaDengInHouse.release.xcconfig"; sourceTree = "<group>"; };
+		5BA9BFC6357DF74CD36DFA78 /* Pods-HuaDeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDeng.debug.xcconfig"; path = "Target Support Files/Pods-HuaDeng/Pods-HuaDeng.debug.xcconfig"; sourceTree = "<group>"; };
+		7BBC0B1B23792B58006A08EE /* HuaDeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaDeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBC0B1E23792B58006A08EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BBC0B1F23792B58006A08EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BBC0B2A23792B5A006A08EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BBC0B2F23792B5A006A08EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBC0B3023792B5A006A08EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BBC0B3623792B5A006A08EE /* HuaDengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaDengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBC0B3A23792B5A006A08EE /* HuaDengTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaDengTests.m; sourceTree = "<group>"; };
+		7BBC0B3C23792B5A006A08EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBC0B4123792B5A006A08EE /* HuaDengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaDengUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBC0B4523792B5A006A08EE /* HuaDengUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaDengUITests.m; sourceTree = "<group>"; };
+		7BBC0B4723792B5A006A08EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBC0B632379350E006A08EE /* HuaDeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaDeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBC0B68237936C0006A08EE /* HuaDengInHouse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HuaDengInHouse-Info.plist"; sourceTree = "<group>"; };
+		7BBC0BE4237943C6006A08EE /* HDLaunchHander.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDLaunchHander.h; sourceTree = "<group>"; };
+		7BBC0BE5237943C6006A08EE /* HDLaunchHander.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDLaunchHander.m; sourceTree = "<group>"; };
+		7BBC0BE823794596006A08EE /* HuaDeng.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaDeng.pch; sourceTree = "<group>"; };
+		7BBC0BE923794669006A08EE /* HDBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDBaseVC.h; sourceTree = "<group>"; };
+		7BBC0BEA23794669006A08EE /* HDBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDBaseVC.m; sourceTree = "<group>"; };
+		7BBC0BED23794718006A08EE /* HDFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDFoundation.h; sourceTree = "<group>"; };
+		7BBC0BF2237949AD006A08EE /* HDHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDHeader.h; sourceTree = "<group>"; };
+		7BBC0BF323794A4F006A08EE /* HDBaseTabBarCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDBaseTabBarCtrl.h; sourceTree = "<group>"; };
+		7BBC0BF423794A4F006A08EE /* HDBaseTabBarCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDBaseTabBarCtrl.m; sourceTree = "<group>"; };
+		7BBC0BF923794C88006A08EE /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		7BBC0BFA23794C88006A08EE /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		7BBC0BFD23794EC8006A08EE /* HDFirstPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDFirstPageVC.h; sourceTree = "<group>"; };
+		7BBC0BFE23794EC8006A08EE /* HDFirstPageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDFirstPageVC.m; sourceTree = "<group>"; };
+		7BBC0C0023794ED4006A08EE /* HDNearbyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDNearbyVC.h; sourceTree = "<group>"; };
+		7BBC0C0123794ED4006A08EE /* HDNearbyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDNearbyVC.m; sourceTree = "<group>"; };
+		7BBC0C0323794EDE006A08EE /* HDVipVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVipVC.h; sourceTree = "<group>"; };
+		7BBC0C0423794EDE006A08EE /* HDVipVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVipVC.m; sourceTree = "<group>"; };
+		7BBC0C0623794EE7006A08EE /* HDChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDChatVC.h; sourceTree = "<group>"; };
+		7BBC0C0723794EE7006A08EE /* HDChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDChatVC.m; sourceTree = "<group>"; };
+		7BBC0C0923794EF0006A08EE /* HDMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMineVC.h; sourceTree = "<group>"; };
+		7BBC0C0A23794EF0006A08EE /* HDMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMineVC.m; sourceTree = "<group>"; };
+		7BBC0C0C237950DE006A08EE /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		7BBC0C0D237950DE006A08EE /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaDeng.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41CC240E34392E779F35D0C /* Pods-HuaDeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDeng.release.xcconfig"; path = "Target Support Files/Pods-HuaDeng/Pods-HuaDeng.release.xcconfig"; sourceTree = "<group>"; };
+		B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDengInHouse.debug.xcconfig"; path = "Target Support Files/Pods-HuaDengInHouse/Pods-HuaDengInHouse.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BBC0B1823792B58006A08EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E248B2561809CFB38132D6 /* libPods-HuaDeng.a in Frameworks */,
+				3A5592B12A17A9F76B9C5A61 /* libPods-HuaDeng.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3323792B5A006A08EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3E23792B5A006A08EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B5A2379350E006A08EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E026645530D632DF0F67435A /* libPods-HuaDengInHouse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543291306B87FB6C5D4C125A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BA9BFC6357DF74CD36DFA78 /* Pods-HuaDeng.debug.xcconfig */,
+				B41CC240E34392E779F35D0C /* Pods-HuaDeng.release.xcconfig */,
+				B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */,
+				4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BBC0B1223792B58006A08EE = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B1D23792B58006A08EE /* HuaDeng */,
+				7BBC0B6523793580006A08EE /* HuaDengInHouse */,
+				7BBC0B3923792B5A006A08EE /* HuaDengTests */,
+				7BBC0B4423792B5A006A08EE /* HuaDengUITests */,
+				7BBC0B1C23792B58006A08EE /* Products */,
+				543291306B87FB6C5D4C125A /* Pods */,
+				886ABCFBCE73AAAC25C35CF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BBC0B1C23792B58006A08EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B1B23792B58006A08EE /* HuaDeng.app */,
+				7BBC0B3623792B5A006A08EE /* HuaDengTests.xctest */,
+				7BBC0B4123792B5A006A08EE /* HuaDengUITests.xctest */,
+				7BBC0B632379350E006A08EE /* HuaDeng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BBC0B1D23792B58006A08EE /* HuaDeng */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B1E23792B58006A08EE /* AppDelegate.h */,
+				7BBC0B1F23792B58006A08EE /* AppDelegate.m */,
+				7BBC0BCC23793C1F006A08EE /* V+VC */,
+				7BBC0BE123794327006A08EE /* HDCustom */,
+				7BBC0B2A23792B5A006A08EE /* Assets.xcassets */,
+				7BBC0B2F23792B5A006A08EE /* Info.plist */,
+				7BBC0B3023792B5A006A08EE /* main.m */,
+				7BBC0BE823794596006A08EE /* HuaDeng.pch */,
+			);
+			path = HuaDeng;
+			sourceTree = "<group>";
+		};
+		7BBC0B3923792B5A006A08EE /* HuaDengTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B3A23792B5A006A08EE /* HuaDengTests.m */,
+				7BBC0B3C23792B5A006A08EE /* Info.plist */,
+			);
+			path = HuaDengTests;
+			sourceTree = "<group>";
+		};
+		7BBC0B4423792B5A006A08EE /* HuaDengUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B4523792B5A006A08EE /* HuaDengUITests.m */,
+				7BBC0B4723792B5A006A08EE /* Info.plist */,
+			);
+			path = HuaDengUITests;
+			sourceTree = "<group>";
+		};
+		7BBC0B6523793580006A08EE /* HuaDengInHouse */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0B68237936C0006A08EE /* HuaDengInHouse-Info.plist */,
+			);
+			path = HuaDengInHouse;
+			sourceTree = "<group>";
+		};
+		7BBC0BCC23793C1F006A08EE /* V+VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BD5237942EE006A08EE /* HDFirstPageVC */,
+				7BBC0BD1237942EE006A08EE /* HDNearbyVC */,
+				7BBC0BD9237942EE006A08EE /* HDVipVC */,
+				7BBC0BCD237942EE006A08EE /* HDChatVC */,
+				7BBC0BDD237942EE006A08EE /* HDMineVC */,
+			);
+			path = "V+VC";
+			sourceTree = "<group>";
+		};
+		7BBC0BCD237942EE006A08EE /* HDChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BCE237942EE006A08EE /* VC */,
+				7BBC0BCF237942EE006A08EE /* Model */,
+				7BBC0BD0237942EE006A08EE /* Views */,
+			);
+			path = HDChatVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BCE237942EE006A08EE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0C0623794EE7006A08EE /* HDChatVC.h */,
+				7BBC0C0723794EE7006A08EE /* HDChatVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BBC0BCF237942EE006A08EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBC0BD0237942EE006A08EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BBC0BD1237942EE006A08EE /* HDNearbyVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BD2237942EE006A08EE /* VC */,
+				7BBC0BD3237942EE006A08EE /* Model */,
+				7BBC0BD4237942EE006A08EE /* Views */,
+			);
+			path = HDNearbyVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BD2237942EE006A08EE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0C0023794ED4006A08EE /* HDNearbyVC.h */,
+				7BBC0C0123794ED4006A08EE /* HDNearbyVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BBC0BD3237942EE006A08EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBC0BD4237942EE006A08EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BBC0BD5237942EE006A08EE /* HDFirstPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BD6237942EE006A08EE /* VC */,
+				7BBC0BD7237942EE006A08EE /* Model */,
+				7BBC0BD8237942EE006A08EE /* Views */,
+			);
+			path = HDFirstPageVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BD6237942EE006A08EE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BFD23794EC8006A08EE /* HDFirstPageVC.h */,
+				7BBC0BFE23794EC8006A08EE /* HDFirstPageVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BBC0BD7237942EE006A08EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBC0BD8237942EE006A08EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BBC0BD9237942EE006A08EE /* HDVipVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BDA237942EE006A08EE /* VC */,
+				7BBC0BDB237942EE006A08EE /* Model */,
+				7BBC0BDC237942EE006A08EE /* Views */,
+			);
+			path = HDVipVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BDA237942EE006A08EE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0C0323794EDE006A08EE /* HDVipVC.h */,
+				7BBC0C0423794EDE006A08EE /* HDVipVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BBC0BDB237942EE006A08EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBC0BDC237942EE006A08EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BBC0BDD237942EE006A08EE /* HDMineVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BDE237942EE006A08EE /* VC */,
+				7BBC0BDF237942EE006A08EE /* Model */,
+				7BBC0BE0237942EE006A08EE /* Views */,
+			);
+			path = HDMineVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BDE237942EE006A08EE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0C0923794EF0006A08EE /* HDMineVC.h */,
+				7BBC0C0A23794EF0006A08EE /* HDMineVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BBC0BDF237942EE006A08EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBC0BE0237942EE006A08EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BBC0BE123794327006A08EE /* HDCustom */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BF623794B6E006A08EE /* Extension */,
+				7BBC0BEC237946FA006A08EE /* HDHeaders */,
+				7BBC0BE323794383006A08EE /* HDTool */,
+				7BBC0BE223794351006A08EE /* HDBaseVC */,
+			);
+			path = HDCustom;
+			sourceTree = "<group>";
+		};
+		7BBC0BE223794351006A08EE /* HDBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BE923794669006A08EE /* HDBaseVC.h */,
+				7BBC0BEA23794669006A08EE /* HDBaseVC.m */,
+				7BBC0BF323794A4F006A08EE /* HDBaseTabBarCtrl.h */,
+				7BBC0BF423794A4F006A08EE /* HDBaseTabBarCtrl.m */,
+			);
+			path = HDBaseVC;
+			sourceTree = "<group>";
+		};
+		7BBC0BE323794383006A08EE /* HDTool */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BE4237943C6006A08EE /* HDLaunchHander.h */,
+				7BBC0BE5237943C6006A08EE /* HDLaunchHander.m */,
+			);
+			path = HDTool;
+			sourceTree = "<group>";
+		};
+		7BBC0BEC237946FA006A08EE /* HDHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BED23794718006A08EE /* HDFoundation.h */,
+				7BBC0BF2237949AD006A08EE /* HDHeader.h */,
+			);
+			path = HDHeaders;
+			sourceTree = "<group>";
+		};
+		7BBC0BF623794B6E006A08EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC0BF923794C88006A08EE /* UIColor+Extension.h */,
+				7BBC0BFA23794C88006A08EE /* UIColor+Extension.m */,
+				7BBC0C0C237950DE006A08EE /* UIViewController+Extension.h */,
+				7BBC0C0D237950DE006A08EE /* UIViewController+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		886ABCFBCE73AAAC25C35CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */,
+				26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BBC0B1A23792B58006A08EE /* HuaDeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBC0B4A23792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDeng" */;
+			buildPhases = (
+				BD5E99D750C2DFF442D8FF5A /* [CP] Check Pods Manifest.lock */,
+				7BBC0B1723792B58006A08EE /* Sources */,
+				7BBC0B1823792B58006A08EE /* Frameworks */,
+				7BBC0B1923792B58006A08EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaDeng;
+			productName = HuaDeng;
+			productReference = 7BBC0B1B23792B58006A08EE /* HuaDeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BBC0B3523792B5A006A08EE /* HuaDengTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBC0B4D23792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDengTests" */;
+			buildPhases = (
+				7BBC0B3223792B5A006A08EE /* Sources */,
+				7BBC0B3323792B5A006A08EE /* Frameworks */,
+				7BBC0B3423792B5A006A08EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBC0B3823792B5A006A08EE /* PBXTargetDependency */,
+			);
+			name = HuaDengTests;
+			productName = HuaDengTests;
+			productReference = 7BBC0B3623792B5A006A08EE /* HuaDengTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BBC0B4023792B5A006A08EE /* HuaDengUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBC0B5023792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDengUITests" */;
+			buildPhases = (
+				7BBC0B3D23792B5A006A08EE /* Sources */,
+				7BBC0B3E23792B5A006A08EE /* Frameworks */,
+				7BBC0B3F23792B5A006A08EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBC0B4323792B5A006A08EE /* PBXTargetDependency */,
+			);
+			name = HuaDengUITests;
+			productName = HuaDengUITests;
+			productReference = 7BBC0B4123792B5A006A08EE /* HuaDengUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7BBC0B532379350E006A08EE /* HuaDengInHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBC0B602379350E006A08EE /* Build configuration list for PBXNativeTarget "HuaDengInHouse" */;
+			buildPhases = (
+				766ABB89C7DCDB3F0E753F96 /* [CP] Check Pods Manifest.lock */,
+				7BBC0B552379350E006A08EE /* Sources */,
+				7BBC0B5A2379350E006A08EE /* Frameworks */,
+				7BBC0B5C2379350E006A08EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaDengInHouse;
+			productName = HuaDeng;
+			productReference = 7BBC0B632379350E006A08EE /* HuaDeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BBC0B1323792B58006A08EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = " Aaron";
+				TargetAttributes = {
+					7BBC0B1A23792B58006A08EE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					7BBC0B3523792B5A006A08EE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7BBC0B1A23792B58006A08EE;
+					};
+					7BBC0B4023792B5A006A08EE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7BBC0B1A23792B58006A08EE;
+					};
+				};
+			};
+			buildConfigurationList = 7BBC0B1623792B58006A08EE /* Build configuration list for PBXProject "HuaDeng" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BBC0B1223792B58006A08EE;
+			productRefGroup = 7BBC0B1C23792B58006A08EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BBC0B1A23792B58006A08EE /* HuaDeng */,
+				7BBC0B532379350E006A08EE /* HuaDengInHouse */,
+				7BBC0B3523792B5A006A08EE /* HuaDengTests */,
+				7BBC0B4023792B5A006A08EE /* HuaDengUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BBC0B1923792B58006A08EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0B2B23792B5A006A08EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3423792B5A006A08EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3F23792B5A006A08EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B5C2379350E006A08EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0B5E2379350E006A08EE /* Assets.xcassets in Resources */,
+				7BBC0B69237936C0006A08EE /* HuaDengInHouse-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		766ABB89C7DCDB3F0E753F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuaDengInHouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5E99D750C2DFF442D8FF5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuaDeng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BBC0B1723792B58006A08EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0C0523794EDE006A08EE /* HDVipVC.m in Sources */,
+				7BBC0BFF23794EC8006A08EE /* HDFirstPageVC.m in Sources */,
+				7BBC0C0E237950DE006A08EE /* UIViewController+Extension.m in Sources */,
+				7BBC0B2023792B58006A08EE /* AppDelegate.m in Sources */,
+				7BBC0B3123792B5A006A08EE /* main.m in Sources */,
+				7BBC0BFB23794C88006A08EE /* UIColor+Extension.m in Sources */,
+				7BBC0BE6237943C6006A08EE /* HDLaunchHander.m in Sources */,
+				7BBC0C0223794ED4006A08EE /* HDNearbyVC.m in Sources */,
+				7BBC0C0823794EE7006A08EE /* HDChatVC.m in Sources */,
+				7BBC0BEB23794669006A08EE /* HDBaseVC.m in Sources */,
+				7BBC0C0B23794EF0006A08EE /* HDMineVC.m in Sources */,
+				7BBC0BF523794A4F006A08EE /* HDBaseTabBarCtrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3223792B5A006A08EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0B3B23792B5A006A08EE /* HuaDengTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B3D23792B5A006A08EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0B4623792B5A006A08EE /* HuaDengUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBC0B552379350E006A08EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBC0B572379350E006A08EE /* AppDelegate.m in Sources */,
+				7BBC0B582379350E006A08EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BBC0B3823792B5A006A08EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBC0B1A23792B58006A08EE /* HuaDeng */;
+			targetProxy = 7BBC0B3723792B5A006A08EE /* PBXContainerItemProxy */;
+		};
+		7BBC0B4323792B5A006A08EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBC0B1A23792B58006A08EE /* HuaDeng */;
+			targetProxy = 7BBC0B4223792B5A006A08EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BBC0B4823792B5A006A08EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BBC0B4923792B5A006A08EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BBC0B4B23792B5A006A08EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA9BFC6357DF74CD36DFA78 /* Pods-HuaDeng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaDeng/HuaDeng.pch";
+				INFOPLIST_FILE = HuaDeng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BBC0B4C23792B5A006A08EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41CC240E34392E779F35D0C /* Pods-HuaDeng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaDeng/HuaDeng.pch";
+				INFOPLIST_FILE = HuaDeng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BBC0B4E23792B5A006A08EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaDengTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaDeng.app/HuaDeng";
+			};
+			name = Debug;
+		};
+		7BBC0B4F23792B5A006A08EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaDengTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaDeng.app/HuaDeng";
+			};
+			name = Release;
+		};
+		7BBC0B5123792B5A006A08EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaDengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaDeng;
+			};
+			name = Debug;
+		};
+		7BBC0B5223792B5A006A08EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuaDengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuaDeng;
+			};
+			name = Release;
+		};
+		7BBC0B612379350E006A08EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaDeng/HuaDeng.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/HuaDengInHouse/HuaDengInHouse-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDeng;
+				PRODUCT_NAME = HuaDeng;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BBC0B622379350E006A08EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaDeng/HuaDeng.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/HuaDengInHouse/HuaDengInHouse-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huadeng.HuaDeng;
+				PRODUCT_NAME = HuaDeng;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BBC0B1623792B58006A08EE /* Build configuration list for PBXProject "HuaDeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBC0B4823792B5A006A08EE /* Debug */,
+				7BBC0B4923792B5A006A08EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBC0B4A23792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBC0B4B23792B5A006A08EE /* Debug */,
+				7BBC0B4C23792B5A006A08EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBC0B4D23792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDengTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBC0B4E23792B5A006A08EE /* Debug */,
+				7BBC0B4F23792B5A006A08EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBC0B5023792B5A006A08EE /* Build configuration list for PBXNativeTarget "HuaDengUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBC0B5123792B5A006A08EE /* Debug */,
+				7BBC0B5223792B5A006A08EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBC0B602379350E006A08EE /* Build configuration list for PBXNativeTarget "HuaDengInHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBC0B612379350E006A08EE /* Debug */,
+				7BBC0B622379350E006A08EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BBC0B1323792B58006A08EE /* Project object */;
+}

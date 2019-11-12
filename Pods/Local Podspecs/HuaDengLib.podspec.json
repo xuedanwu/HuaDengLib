@@ -1,0 +1,24 @@
+{
+  "name": "HuaDengLib",
+  "version": "0.0.1",
+  "summary": "A HuaDengLib",
+  "description": "huadeng locallib test",
+  "homepage": "https://gitee.com/ShineLing176",
+  "license": "MIT",
+  "authors": {
+    "Aaron": "987410331@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://gitee.com/ShineLing176/HuaDengLib.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "requires_arc": true
+}
