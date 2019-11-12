@@ -1,7 +1,7 @@
 {
   "name": "HuaDengLib",
-  "version": "0.1.4",
-  "summary": "A short description of HuaDengLib.",
+  "version": "0.1.5",
+  "summary": "花灯第三方依赖模块.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xuedanwu/HuaDengLib",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xuedanwu/HuaDengLib.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"

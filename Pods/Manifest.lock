@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - HuaDengLib/AppStore (0.1.4):
+  - HuaDengLib/AppStore (0.1.5):
     - HuaDengLib/Core
-  - HuaDengLib/Core (0.1.4)
-  - HuaDengLib/Enterprise (0.1.4):
+  - HuaDengLib/Core (0.1.5)
+  - HuaDengLib/Enterprise (0.1.5):
     - HuaDengLib/Core
   - TMNavigationController (0.1.1)
 
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  HuaDengLib: cfe9fab65d8788b15487e17cb481c73012cb3647
+  HuaDengLib: 69145a1134db560196b038bdf234ca59913c8de2
   TMNavigationController: a6d5fdc1ad18142f58704d1405dce693aed311f7
 
 PODFILE CHECKSUM: 5761f79407b63cd85eedfedd583c7de95f29c1c1
