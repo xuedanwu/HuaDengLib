@@ -1,0 +1,16 @@
+PODS:
+  - HuaDengLib (0.1.0)
+
+DEPENDENCIES:
+  - HuaDengLib (from `../`)
+
+EXTERNAL SOURCES:
+  HuaDengLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuaDengLib: e2d3c20de914c4af0cdcfc05e1a5688986ee96f6
+
+PODFILE CHECKSUM: 3271f5715c9f6ec33aa5b725131beff516861ca7
+
+COCOAPODS: 1.8.4

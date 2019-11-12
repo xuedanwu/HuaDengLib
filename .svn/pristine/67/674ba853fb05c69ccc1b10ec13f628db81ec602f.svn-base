@@ -1,0 +1,6 @@
+framework module HuaDengLib {
+  umbrella header "HuaDengLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

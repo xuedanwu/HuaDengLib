@@ -1,6 +1,6 @@
 PODS:
-  - HuaDengLib/AppStore (0.1.2)
-  - HuaDengLib/Enterprise (0.1.2)
+  - HuaDengLib/AppStore (0.1.3)
+  - HuaDengLib/Enterprise (0.1.3)
 
 DEPENDENCIES:
   - HuaDengLib/AppStore (from `../HuaDeng/HuaDengLib`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../HuaDeng/HuaDengLib"
 
 SPEC CHECKSUMS:
-  HuaDengLib: 2d00e60b21c7600b09ce19e0df7cdcb5f8589a5f
+  HuaDengLib: 885b99c28232b0663c5e9f852ae22035156e46ea
 
 PODFILE CHECKSUM: d4baca1bc2bd39d2708ef0d2ea4389cc4d73d41d
 

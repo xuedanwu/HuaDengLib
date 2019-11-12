@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HuaDengLib_Example' do
+  pod 'HuaDengLib', :path => '../'
+
+  target 'HuaDengLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

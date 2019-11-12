@@ -1,0 +1,22 @@
+{
+  "name": "HuaDengLib",
+  "version": "0.1.0",
+  "summary": "A short description of HuaDengLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedanwu/HuaDengLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuedanwu": "15618025967@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xuedanwu/HuaDengLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HuaDengLib/Classes/**/*"
+}

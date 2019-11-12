@@ -1,0 +1,26 @@
+//
+//  SLChatGifModel.h
+//  ShengLiao
+//
+//  Created by yuxilong on 2019/7/16.
+//  Copyright © 2019 Baitu. All rights reserved.
+//
+
+//#import "SLBaseModel.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SLChatGifModel : NSObject
+
+@property (nonatomic,copy) NSString *gif_id;
+
+@property (nonatomic,copy) NSString *file_name;
+
+@property (nonatomic,copy) NSString *text;
+
+@property (nonatomic,assign) double user_times;
+
+
+@end
+
+NS_ASSUME_NONNULL_END
