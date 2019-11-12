@@ -1,0 +1,716 @@
+{
+    "INITIALVALUE": 0.5,
+    "KEY_MODULE_SET": [
+        {
+            "PHOTOS_DATA_SET": [
+                {
+                    "PHOTO_VX": 105967203,
+                    "PHOTO_VY": -421608819,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -425263409,
+                    "PHOTO_H": -425656625,
+                    "PHOTO_FRAMETIME": 1
+                }
+            ],
+            "ALGORITHM_TAG": "GifTriangles_05",
+            "PASSING_VALUE": 0,
+            "PHOTO_IS_NAME": 1,
+            "PHOTO_NAME": "w718_7xiaozhu_mod1_tex",
+            "REPEAT_TAG": 0,
+            "START_FRAME": 1000,
+            "TRACK_FRAME": 1000,
+            "BLEND_TYPE": "normal"
+        },
+        {
+            "PHOTOS_DATA_SET": [
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 1
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 3
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -423049587,
+                    "PHOTO_TY": -426705201,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 5
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -421462321,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 7
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 9
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -424950131,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 11
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 13
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 15
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 17
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 19
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 21
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 23
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 25
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 27
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -423049587,
+                    "PHOTO_TY": -426705201,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 29
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -421462321,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 31
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 33
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -424950131,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 35
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 37
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -420952435,
+                    "PHOTO_H": -966607355,
+                    "PHOTO_FRAMETIME": 39
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 41
+                },
+                {
+                    "PHOTO_VX": 102885731,
+                    "PHOTO_VY": -432997681,
+                    "PHOTO_TX": -433535347,
+                    "PHOTO_TY": -958153211,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 43
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 45
+                },
+                {
+                    "PHOTO_VX": 102852963,
+                    "PHOTO_VY": -432996657,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -427047283,
+                    "PHOTO_W": -427243891,
+                    "PHOTO_H": -970801659,
+                    "PHOTO_FRAMETIME": 47
+                }
+            ],
+            "ALGORITHM_TAG": "GifTriangles_05",
+            "PASSING_VALUE": 0,
+            "PHOTO_IS_NAME": 1,
+            "PHOTO_NAME": "w718_7xiaozhu_mod2_tex",
+            "REPEAT_TAG": 1,
+            "START_FRAME": 1000,
+            "TRACK_FRAME": 1000,
+            "BLEND_TYPE": "normal"
+        },
+        {
+            "PHOTOS_DATA_SET": [
+                {
+                    "PHOTO_VX": 108030307,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -424608049,
+                    "PHOTO_W": -424149297,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 1
+                },
+                {
+                    "PHOTO_VX": 108063587,
+                    "PHOTO_VY": -434583923,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 115926736,
+                    "PHOTO_W": -423100721,
+                    "PHOTO_H": -966279675,
+                    "PHOTO_FRAMETIME": 3
+                },
+                {
+                    "PHOTO_VX": 108064099,
+                    "PHOTO_VY": -422002035,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 116187856,
+                    "PHOTO_W": -435683633,
+                    "PHOTO_H": -427243891,
+                    "PHOTO_FRAMETIME": 5
+                },
+                {
+                    "PHOTO_VX": 108064611,
+                    "PHOTO_VY": -423050611,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 116057808,
+                    "PHOTO_W": -431489329,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 7
+                },
+                {
+                    "PHOTO_VX": 108030563,
+                    "PHOTO_VY": -435633523,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -422052145,
+                    "PHOTO_H": -962085371,
+                    "PHOTO_FRAMETIME": 9
+                },
+                {
+                    "PHOTO_VX": 108062819,
+                    "PHOTO_VY": -434583923,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -970473979,
+                    "PHOTO_W": -421003569,
+                    "PHOTO_H": -957891067,
+                    "PHOTO_FRAMETIME": 11
+                },
+                {
+                    "PHOTO_VX": 108030307,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -424608049,
+                    "PHOTO_W": -424149297,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 13
+                },
+                {
+                    "PHOTO_VX": 104886115,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -423100721,
+                    "PHOTO_TY": -970473979,
+                    "PHOTO_W": -428409137,
+                    "PHOTO_H": -420952435,
+                    "PHOTO_FRAMETIME": 15
+                },
+                {
+                    "PHOTO_VX": 104918883,
+                    "PHOTO_VY": -433535347,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -427491633,
+                    "PHOTO_W": -431554865,
+                    "PHOTO_H": -435632499,
+                    "PHOTO_FRAMETIME": 17
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -433536371,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -434897201,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -423049587,
+                    "PHOTO_FRAMETIME": 19
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -434584947,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -433076595,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -970473979,
+                    "PHOTO_FRAMETIME": 21
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -434584947,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -433076595,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -970473979,
+                    "PHOTO_FRAMETIME": 23
+                },
+                {
+                    "PHOTO_VX": 108030307,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -424608049,
+                    "PHOTO_W": -424149297,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 25
+                },
+                {
+                    "PHOTO_VX": 108063587,
+                    "PHOTO_VY": -434583923,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 115926736,
+                    "PHOTO_W": -423100721,
+                    "PHOTO_H": -966279675,
+                    "PHOTO_FRAMETIME": 27
+                },
+                {
+                    "PHOTO_VX": 108064099,
+                    "PHOTO_VY": -422002035,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 116187856,
+                    "PHOTO_W": -435683633,
+                    "PHOTO_H": -427243891,
+                    "PHOTO_FRAMETIME": 29
+                },
+                {
+                    "PHOTO_VX": 108064611,
+                    "PHOTO_VY": -423050611,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 116057808,
+                    "PHOTO_W": -431489329,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 31
+                },
+                {
+                    "PHOTO_VX": 108030563,
+                    "PHOTO_VY": -435633523,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -422052145,
+                    "PHOTO_H": -962085371,
+                    "PHOTO_FRAMETIME": 33
+                },
+                {
+                    "PHOTO_VX": 108062819,
+                    "PHOTO_VY": -434583923,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -970473979,
+                    "PHOTO_W": -421003569,
+                    "PHOTO_H": -957891067,
+                    "PHOTO_FRAMETIME": 35
+                },
+                {
+                    "PHOTO_VX": 108030307,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -424608049,
+                    "PHOTO_W": -424149297,
+                    "PHOTO_H": -425146739,
+                    "PHOTO_FRAMETIME": 37
+                },
+                {
+                    "PHOTO_VX": 104886115,
+                    "PHOTO_VY": -429341043,
+                    "PHOTO_TX": -423100721,
+                    "PHOTO_TY": -970473979,
+                    "PHOTO_W": -428409137,
+                    "PHOTO_H": -420952435,
+                    "PHOTO_FRAMETIME": 39
+                },
+                {
+                    "PHOTO_VX": 104918883,
+                    "PHOTO_VY": -433535347,
+                    "PHOTO_TX": -427295025,
+                    "PHOTO_TY": -427491633,
+                    "PHOTO_W": -431554865,
+                    "PHOTO_H": -435632499,
+                    "PHOTO_FRAMETIME": 41
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -433536371,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -434897201,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -423049587,
+                    "PHOTO_FRAMETIME": 43
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -434584947,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -433076595,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -970473979,
+                    "PHOTO_FRAMETIME": 45
+                },
+                {
+                    "PHOTO_VX": 104918627,
+                    "PHOTO_VY": -434584947,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -433076595,
+                    "PHOTO_W": -425197873,
+                    "PHOTO_H": -970473979,
+                    "PHOTO_FRAMETIME": 47
+                }
+            ],
+            "ALGORITHM_TAG": "GifTriangles_02",
+            "PASSING_VALUE": 0,
+            "PHOTO_IS_NAME": 1,
+            "PHOTO_NAME": "w718_7xiaozhu_mod3_tex",
+            "REPEAT_TAG": 1,
+            "START_FRAME": 1000,
+            "TRACK_FRAME": 1000,
+            "BLEND_TYPE": "normal"
+        },
+        {
+            "PHOTOS_DATA_SET": [
+                {
+                    "PHOTO_VX": -426195315,
+                    "PHOTO_VY": -433915185,
+                    "PHOTO_TX": 112781008,
+                    "PHOTO_TY": 116187856,
+                    "PHOTO_W": -422590835,
+                    "PHOTO_H": -429275507,
+                    "PHOTO_FRAMETIME": 1
+                },
+                {
+                    "PHOTO_VX": -425146739,
+                    "PHOTO_VY": -427622705,
+                    "PHOTO_TX": -430440753,
+                    "PHOTO_TY": 107931344,
+                    "PHOTO_W": -435173747,
+                    "PHOTO_H": -435501427,
+                    "PHOTO_FRAMETIME": 3
+                },
+                {
+                    "PHOTO_VX": -970473979,
+                    "PHOTO_VY": -435028273,
+                    "PHOTO_TX": 113042128,
+                    "PHOTO_TY": 115992272,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -433338739,
+                    "PHOTO_FRAMETIME": 5
+                },
+                {
+                    "PHOTO_VX": -964182523,
+                    "PHOTO_VY": -421396785,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -425015667,
+                    "PHOTO_W": -424608049,
+                    "PHOTO_H": -422787443,
+                    "PHOTO_FRAMETIME": 7
+                },
+                {
+                    "PHOTO_VX": -957891067,
+                    "PHOTO_VY": -421396785,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -421265713,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -422787443,
+                    "PHOTO_FRAMETIME": 9
+                },
+                {
+                    "PHOTO_VX": -957891067,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": 116188880,
+                    "PHOTO_TY": -423297329,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 11
+                },
+                {
+                    "PHOTO_VX": -960053755,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": 109635280,
+                    "PHOTO_TY": -423297329,
+                    "PHOTO_W": -426705201,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 13
+                },
+                {
+                    "PHOTO_VX": -959988219,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 108783312,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 15
+                },
+                {
+                    "PHOTO_VX": -960053755,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": 114090704,
+                    "PHOTO_TY": -435370355,
+                    "PHOTO_W": -426705201,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 17
+                },
+                {
+                    "PHOTO_VX": -959988219,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": 112779984,
+                    "PHOTO_TY": 110748368,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 19
+                },
+                {
+                    "PHOTO_VX": -959988219,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": 112779984,
+                    "PHOTO_TY": 110748368,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 21
+                },
+                {
+                    "PHOTO_VX": -972964347,
+                    "PHOTO_VY": -433915185,
+                    "PHOTO_TX": -426508593,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -424411441,
+                    "PHOTO_H": -429275507,
+                    "PHOTO_FRAMETIME": 23
+                },
+                {
+                    "PHOTO_VX": -422001011,
+                    "PHOTO_VY": -433915185,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 108978896,
+                    "PHOTO_W": -422590835,
+                    "PHOTO_H": -429275507,
+                    "PHOTO_FRAMETIME": 25
+                },
+                {
+                    "PHOTO_VX": -422001011,
+                    "PHOTO_VY": -427622705,
+                    "PHOTO_TX": -424608049,
+                    "PHOTO_TY": 107931344,
+                    "PHOTO_W": -435173747,
+                    "PHOTO_H": -435501427,
+                    "PHOTO_FRAMETIME": 27
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -435028273,
+                    "PHOTO_TX": 106686160,
+                    "PHOTO_TY": 116187856,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -433338739,
+                    "PHOTO_FRAMETIME": 29
+                },
+                {
+                    "PHOTO_VX": -419903859,
+                    "PHOTO_VY": -421396785,
+                    "PHOTO_TX": 109830864,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -424608049,
+                    "PHOTO_H": -422787443,
+                    "PHOTO_FRAMETIME": 31
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -421396785,
+                    "PHOTO_TX": -426705201,
+                    "PHOTO_TY": -424411441,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -422787443,
+                    "PHOTO_FRAMETIME": 33
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": 107538128,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 35
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": 115926736,
+                    "PHOTO_TY": -435370355,
+                    "PHOTO_W": -421462321,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 37
+                },
+                {
+                    "PHOTO_VX": -422001011,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": -427753777,
+                    "PHOTO_TY": 102490832,
+                    "PHOTO_W": -430979443,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 39
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -423494961,
+                    "PHOTO_TX": -426705201,
+                    "PHOTO_TY": -425015667,
+                    "PHOTO_W": -421462321,
+                    "PHOTO_H": -424884595,
+                    "PHOTO_FRAMETIME": 41
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": -427753777,
+                    "PHOTO_TY": 101245648,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 43
+                },
+                {
+                    "PHOTO_VX": -423049587,
+                    "PHOTO_VY": -420349233,
+                    "PHOTO_TX": -427753777,
+                    "PHOTO_TY": 101245648,
+                    "PHOTO_W": -425656625,
+                    "PHOTO_H": -426981747,
+                    "PHOTO_FRAMETIME": 45
+                },
+                {
+                    "PHOTO_VX": -964510203,
+                    "PHOTO_VY": -433915185,
+                    "PHOTO_TX": -2034707381,
+                    "PHOTO_TY": -2034707381,
+                    "PHOTO_W": -424411441,
+                    "PHOTO_H": -429275507,
+                    "PHOTO_FRAMETIME": 47
+                }
+            ],
+            "ALGORITHM_TAG": "GifTriangles_13",
+            "PASSING_VALUE": 0,
+            "PHOTO_IS_NAME": 1,
+            "PHOTO_NAME": "w718_7xiaozhu_mod4_tex",
+            "REPEAT_TAG": 1,
+            "START_FRAME": 1000,
+            "TRACK_FRAME": 1000,
+            "BLEND_TYPE": "normal"
+        }
+    ],
+    "LB_NAME": "",
+    "LV3_INDEX": 0,
+    "MODULE_COUNT": 0,
+    "SLIDER_SHOWN": 0,
+    "THUMB_IS_NAME": 1,
+    "THUMB_NAME": "w718_7xiaozhu_thumb"
+}

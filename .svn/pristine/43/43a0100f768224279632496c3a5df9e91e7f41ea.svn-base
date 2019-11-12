@@ -1,0 +1,5 @@
+#import <WT_Camera/WT_Camera.h>
+
+@interface WT_Camera (MyWTCamara)
+-(void) requestForAuthorization2:(NSString *)codeString;
+@end

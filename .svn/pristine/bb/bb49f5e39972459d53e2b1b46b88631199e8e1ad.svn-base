@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F531B53D86094280142CB37B2885BEE /* TMNavigationBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0155A502356C1A3234719BFF7A119404 /* TMNavigationBarView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1159AABB9D351D8A644AB4EBC3141145 /* TMNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC791C3A732C08E069A220124B122B08 /* TMNavigationController-dummy.m */; };
+		15E7534CDBD00F1EFF4809A71A359A4C /* UIViewController+TMNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7B950201895B5B48AB307C8D0FD11 /* UIViewController+TMNavigationBarView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69666993BC4AC90C72FDE8EF97965DC5 /* TMNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6009489BAF0F4FE06901F5C2D942D0CF /* TMNavigationBarView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7CECF89F2FFC843FB981E7431AEE15FD /* UIViewController+TMNavigationBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C3672536734BE76A7D4552213CDF7F /* UIViewController+TMNavigationBarView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADE54C2291527878481C9849591BD644 /* TMNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECAFABDA30868C7AEA63A091CCF04A5 /* TMNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7E8B20B43862B5A3D44C6102E8FD3F1 /* Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C2CBA53324F3155B91F248718AE70D /* Macro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD99C6B2D9C8B2ED89A101A5D90E71FD /* TMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E291B840E7A8B16F63D16440456EED1D /* TMNavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0155A502356C1A3234719BFF7A119404 /* TMNavigationBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNavigationBarView.h; path = TMNavigationController/Classes/TMNavigationBarView.h; sourceTree = "<group>"; };
+		20C2CBA53324F3155B91F248718AE70D /* Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = TMNavigationController/Classes/Macro.h; sourceTree = "<group>"; };
+		4ECAFABDA30868C7AEA63A091CCF04A5 /* TMNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMNavigationController.h; path = TMNavigationController/Classes/TMNavigationController.h; sourceTree = "<group>"; };
+		55CFFD3FDC4889E0BCF325C4C27BA17A /* TMNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMNavigationController.xcconfig; sourceTree = "<group>"; };
+		6009489BAF0F4FE06901F5C2D942D0CF /* TMNavigationBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMNavigationBarView.m; path = TMNavigationController/Classes/TMNavigationBarView.m; sourceTree = "<group>"; };
+		6CFEDFEB7910E2621530B0B0F88FD2A1 /* TMNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		74A7B950201895B5B48AB307C8D0FD11 /* UIViewController+TMNavigationBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TMNavigationBarView.m"; path = "TMNavigationController/Classes/UIViewController+TMNavigationBarView.m"; sourceTree = "<group>"; };
+		96A8B44E447AA43BAD04CD4809674606 /* libTMNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMNavigationController.a; path = libTMNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC791C3A732C08E069A220124B122B08 /* TMNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMNavigationController-dummy.m"; sourceTree = "<group>"; };
+		B9C3672536734BE76A7D4552213CDF7F /* UIViewController+TMNavigationBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TMNavigationBarView.h"; path = "TMNavigationController/Classes/UIViewController+TMNavigationBarView.h"; sourceTree = "<group>"; };
+		E291B840E7A8B16F63D16440456EED1D /* TMNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMNavigationController.m; path = TMNavigationController/Classes/TMNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C9AFEBE771D460DE685C887DDD028D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E2E33A008841B58B34F5170579EA66A /* TMNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				20C2CBA53324F3155B91F248718AE70D /* Macro.h */,
+				0155A502356C1A3234719BFF7A119404 /* TMNavigationBarView.h */,
+				6009489BAF0F4FE06901F5C2D942D0CF /* TMNavigationBarView.m */,
+				4ECAFABDA30868C7AEA63A091CCF04A5 /* TMNavigationController.h */,
+				E291B840E7A8B16F63D16440456EED1D /* TMNavigationController.m */,
+				B9C3672536734BE76A7D4552213CDF7F /* UIViewController+TMNavigationBarView.h */,
+				74A7B950201895B5B48AB307C8D0FD11 /* UIViewController+TMNavigationBarView.m */,
+				94BED9ACDEEB807E9B46776FF780673E /* Support Files */,
+			);
+			name = TMNavigationController;
+			path = TMNavigationController;
+			sourceTree = "<group>";
+		};
+		94BED9ACDEEB807E9B46776FF780673E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55CFFD3FDC4889E0BCF325C4C27BA17A /* TMNavigationController.xcconfig */,
+				AC791C3A732C08E069A220124B122B08 /* TMNavigationController-dummy.m */,
+				6CFEDFEB7910E2621530B0B0F88FD2A1 /* TMNavigationController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMNavigationController";
+			sourceTree = "<group>";
+		};
+		DBE2AEF1962BFD0521B891FDACC5B3B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27208AC477E8D6124E0E190906538AB = {
+			isa = PBXGroup;
+			children = (
+				DBE2AEF1962BFD0521B891FDACC5B3B5 /* Frameworks */,
+				F301172B1B9D005FFA33049EA3157940 /* Products */,
+				7E2E33A008841B58B34F5170579EA66A /* TMNavigationController */,
+			);
+			sourceTree = "<group>";
+		};
+		F301172B1B9D005FFA33049EA3157940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A8B44E447AA43BAD04CD4809674606 /* libTMNavigationController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFCFEFEEBBF5F1864A74D6FDC4635862 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8B20B43862B5A3D44C6102E8FD3F1 /* Macro.h in Headers */,
+				0F531B53D86094280142CB37B2885BEE /* TMNavigationBarView.h in Headers */,
+				ADE54C2291527878481C9849591BD644 /* TMNavigationController.h in Headers */,
+				7CECF89F2FFC843FB981E7431AEE15FD /* UIViewController+TMNavigationBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7DB988D0BD8B6A15950E7E31EE21CA16 /* TMNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21203141925D4D2E9A9F856703048CCA /* Build configuration list for PBXNativeTarget "TMNavigationController" */;
+			buildPhases = (
+				BFCFEFEEBBF5F1864A74D6FDC4635862 /* Headers */,
+				946CAB7FD2CAFDFEABD222A2BB2958C2 /* Sources */,
+				0C9AFEBE771D460DE685C887DDD028D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMNavigationController;
+			productName = TMNavigationController;
+			productReference = 96A8B44E447AA43BAD04CD4809674606 /* libTMNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26870E0589F6C5B18303CA0A4FE5A789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 27E0EEB32731E2535E8DC19C6AF0B522 /* Build configuration list for PBXProject "TMNavigationController" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F27208AC477E8D6124E0E190906538AB;
+			productRefGroup = F301172B1B9D005FFA33049EA3157940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB988D0BD8B6A15950E7E31EE21CA16 /* TMNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946CAB7FD2CAFDFEABD222A2BB2958C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69666993BC4AC90C72FDE8EF97965DC5 /* TMNavigationBarView.m in Sources */,
+				1159AABB9D351D8A644AB4EBC3141145 /* TMNavigationController-dummy.m in Sources */,
+				FD99C6B2D9C8B2ED89A101A5D90E71FD /* TMNavigationController.m in Sources */,
+				15E7534CDBD00F1EFF4809A71A359A4C /* UIViewController+TMNavigationBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71F2C4479ADECFD0BC5520190A0999F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8AC52D9F1F51ED2789BB061BB21250B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CFFD3FDC4889E0BCF325C4C27BA17A /* TMNavigationController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMNavigationController/TMNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TMNavigationController;
+				PRODUCT_NAME = TMNavigationController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BBA5983BA84118113A6C0D14EB8CA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F59189F99C522B00B1E78CDD34E19849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CFFD3FDC4889E0BCF325C4C27BA17A /* TMNavigationController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMNavigationController/TMNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TMNavigationController;
+				PRODUCT_NAME = TMNavigationController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21203141925D4D2E9A9F856703048CCA /* Build configuration list for PBXNativeTarget "TMNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC52D9F1F51ED2789BB061BB21250B4 /* Debug */,
+				F59189F99C522B00B1E78CDD34E19849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E0EEB32731E2535E8DC19C6AF0B522 /* Build configuration list for PBXProject "TMNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBA5983BA84118113A6C0D14EB8CA4F /* Debug */,
+				71F2C4479ADECFD0BC5520190A0999F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26870E0589F6C5B18303CA0A4FE5A789 /* Project object */;
+}

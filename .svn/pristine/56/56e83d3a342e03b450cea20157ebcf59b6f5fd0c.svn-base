@@ -1,0 +1,18 @@
+PODS:
+  - HuaDengLib/AppStore (0.1.4)
+  - HuaDengLib/Enterprise (0.1.4)
+
+DEPENDENCIES:
+  - HuaDengLib/AppStore (from `../HuaDeng/HuaDengLib`)
+  - HuaDengLib/Enterprise (from `../HuaDeng/HuaDengLib`)
+
+EXTERNAL SOURCES:
+  HuaDengLib:
+    :path: "../HuaDeng/HuaDengLib"
+
+SPEC CHECKSUMS:
+  HuaDengLib: 123970620064297ada2327d953c068ff79b1881e
+
+PODFILE CHECKSUM: d4baca1bc2bd39d2708ef0d2ea4389cc4d73d41d
+
+COCOAPODS: 1.8.4

@@ -3,57 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		598348193C45ADA73B458D7EBE2C6874 /* Pods-HuaDengInHouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066F07176E477B10CFC0EC51DBE7B42D /* Pods-HuaDengInHouse-dummy.m */; };
-		E7DD428F697D6584554F460E2ACEA58D /* Pods-HuaDeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5D2F27B9605791B2EEE4E2F028F64 /* Pods-HuaDeng-dummy.m */; };
+		BF175FF17EF7259402DB17859109A9BD /* Pods-HuaDengInHouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E931E1B2B3BB84BBC5BF10B1939B121 /* Pods-HuaDengInHouse-dummy.m */; };
+		E4B0A4205EBC97B05E8D22BD68EA823C /* Pods-HuaDeng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F612D4912960A8323F6D8DD16934 /* Pods-HuaDeng-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BAEBE7473E243CFE313FA9E4DF53A2D /* PBXContainerItemProxy */ = {
+		06FC96F51C7005A5053FE1ADB6C339EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib.xcodeproj */;
+			containerPortal = 1343E484CFA4178FF9F81D8EA5DE6A0C /* AFNetworking.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BB319444F40EEC0E595DE0E0A26BB98;
-			remoteInfo = "HuaDengLib-AppStore";
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
 		};
-		F56C4C35800F9D7B9E3B44A05DE973CB /* PBXContainerItemProxy */ = {
+		304E785520265E1AA3BE079390A973AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 23926119A00D042BE45B6C0F1B78D78B;
-			remoteInfo = "HuaDengLib-Enterprise";
+			remoteGlobalIDString = D01CDF7F2F3E0288418FEFD609B1A2A4;
+			remoteInfo = "HuaDengLib-AppStore-Core";
+		};
+		4F2EBAA39FA831C56C3F59DA7025C13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F03B22135D647F83253606151B8E284;
+			remoteInfo = "HuaDengLib-Core-Enterprise";
+		};
+		611C38AF077C2577EC6DBF184C80C391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1343E484CFA4178FF9F81D8EA5DE6A0C /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		AEEF725464A49B224C4D8CD57CA67C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF6D047CB6AD77B57B38F74B5BBD813 /* TMNavigationController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB988D0BD8B6A15950E7E31EE21CA16;
+			remoteInfo = TMNavigationController;
+		};
+		C9A44F083FFCB917E026752D4669A5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF6D047CB6AD77B57B38F74B5BBD813 /* TMNavigationController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB988D0BD8B6A15950E7E31EE21CA16;
+			remoteInfo = TMNavigationController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066F07176E477B10CFC0EC51DBE7B42D /* Pods-HuaDengInHouse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaDengInHouse-dummy.m"; sourceTree = "<group>"; };
-		141E8D32F0C655FE39268AC16C4B0C93 /* Pods-HuaDeng-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaDeng-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D473FDCD822C25416D386ED19FFC939 /* Pods-HuaDeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDeng.release.xcconfig"; sourceTree = "<group>"; };
+		1343E484CFA4178FF9F81D8EA5DE6A0C /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
 		1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HuaDengLib; path = HuaDengLib.xcodeproj; sourceTree = "<group>"; };
-		22BAE947804339C6804E84E97777233B /* Pods-HuaDengInHouse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaDengInHouse-acknowledgements.plist"; sourceTree = "<group>"; };
-		4696A05EE246C01F150FC46833F014A7 /* Pods-HuaDeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDeng.debug.xcconfig"; sourceTree = "<group>"; };
-		5D9D216030EA1FF97E0F0DA30BC6AB3C /* Pods-HuaDengInHouse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaDengInHouse-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74E5D2F27B9605791B2EEE4E2F028F64 /* Pods-HuaDeng-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaDeng-dummy.m"; sourceTree = "<group>"; };
-		83F56FC4C79D6221331D3AEC6FA0B7CD /* Pods-HuaDeng-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaDeng-acknowledgements.markdown"; sourceTree = "<group>"; };
+		433790AB7FB247E52BD99609BE36AD12 /* Pods-HuaDeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDeng.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2669E37107DB5C9F036287EF11A808 /* Pods-HuaDeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDeng.release.xcconfig"; sourceTree = "<group>"; };
+		57E5B1341EC4EF567DB02EFDF23C6628 /* Pods-HuaDeng-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaDeng-resources.sh"; sourceTree = "<group>"; };
+		82BBDD0C83C18433EA487DED077FBE4D /* Pods-HuaDengInHouse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaDengInHouse-acknowledgements.plist"; sourceTree = "<group>"; };
+		88BD1FE9CA48B9A523CED6ADFFBAEA1A /* Pods-HuaDengInHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDengInHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5F10032FEC1062397DA41E9AD4E52C /* Pods-HuaDengInHouse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaDengInHouse-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BF6D047CB6AD77B57B38F74B5BBD813 /* TMNavigationController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TMNavigationController; path = TMNavigationController.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C016E487FC6DA427E3776685246FDAE8 /* Pods-HuaDengInHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDengInHouse.release.xcconfig"; sourceTree = "<group>"; };
+		9E931E1B2B3BB84BBC5BF10B1939B121 /* Pods-HuaDengInHouse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaDengInHouse-dummy.m"; sourceTree = "<group>"; };
+		A16D57975AC49F64E0ECA614790A595B /* Pods-HuaDeng-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaDeng-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6A0DD1DBF3E1DFFE0A9D4364E37E610 /* Pods-HuaDeng-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaDeng-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9FBC69D9F08C906E7995021D1B77078 /* libPods-HuaDengInHouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HuaDengInHouse.a"; path = "libPods-HuaDengInHouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D565B897379FD8D691B711B8FC55D62F /* Pods-HuaDeng-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaDeng-frameworks.sh"; sourceTree = "<group>"; };
 		ECDF9C42BAE6ED756AEC3C470B21EBCD /* libPods-HuaDeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HuaDeng.a"; path = "libPods-HuaDeng.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFCB5A6C41B9A273586FD1A53967BEEC /* Pods-HuaDengInHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDengInHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A7F612D4912960A8323F6D8DD16934 /* Pods-HuaDeng-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaDeng-dummy.m"; sourceTree = "<group>"; };
+		FA109AD60A1A5FECEF631CED208DE470 /* Pods-HuaDengInHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaDengInHouse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34BA7891A6997CD00D6DF6D1B78E8A02 /* Frameworks */ = {
+		3783EB3DE931B078CFE360940BB82D36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAF5489D07E43152D1A039031A5ABA73 /* Frameworks */ = {
+		C405FFAE5AB71D311BCB63EA3A7B3927 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,17 +95,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B3DABE8F126E24F1F2DFF797FBD572F /* Pods-HuaDengInHouse */ = {
+		01A808ECDC28A04658A2735DB17C6678 /* Pods-HuaDeng */ = {
 			isa = PBXGroup;
 			children = (
-				5D9D216030EA1FF97E0F0DA30BC6AB3C /* Pods-HuaDengInHouse-acknowledgements.markdown */,
-				22BAE947804339C6804E84E97777233B /* Pods-HuaDengInHouse-acknowledgements.plist */,
-				066F07176E477B10CFC0EC51DBE7B42D /* Pods-HuaDengInHouse-dummy.m */,
-				FFCB5A6C41B9A273586FD1A53967BEEC /* Pods-HuaDengInHouse.debug.xcconfig */,
-				C016E487FC6DA427E3776685246FDAE8 /* Pods-HuaDengInHouse.release.xcconfig */,
+				A6A0DD1DBF3E1DFFE0A9D4364E37E610 /* Pods-HuaDeng-acknowledgements.markdown */,
+				A16D57975AC49F64E0ECA614790A595B /* Pods-HuaDeng-acknowledgements.plist */,
+				F1A7F612D4912960A8323F6D8DD16934 /* Pods-HuaDeng-dummy.m */,
+				D565B897379FD8D691B711B8FC55D62F /* Pods-HuaDeng-frameworks.sh */,
+				57E5B1341EC4EF567DB02EFDF23C6628 /* Pods-HuaDeng-resources.sh */,
+				433790AB7FB247E52BD99609BE36AD12 /* Pods-HuaDeng.debug.xcconfig */,
+				4C2669E37107DB5C9F036287EF11A808 /* Pods-HuaDeng.release.xcconfig */,
 			);
-			name = "Pods-HuaDengInHouse";
-			path = "Target Support Files/Pods-HuaDengInHouse";
+			name = "Pods-HuaDeng";
+			path = "Target Support Files/Pods-HuaDeng";
+			sourceTree = "<group>";
+		};
+		01C26C9039A7F25C2EE2DEA6DA7B55D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A808ECDC28A04658A2735DB17C6678 /* Pods-HuaDeng */,
+				34D00A334D5EFA1343357A8DFDA4222E /* Pods-HuaDengInHouse */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		11B6BBB40190F643C73B09D50E31657C /* Development Pods */ = {
@@ -84,13 +127,17 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		707373440E57CDB1033BA64955B77829 /* Targets Support Files */ = {
+		34D00A334D5EFA1343357A8DFDA4222E /* Pods-HuaDengInHouse */ = {
 			isa = PBXGroup;
 			children = (
-				F5D12F8D63871BE29A7D2B3A989A113D /* Pods-HuaDeng */,
-				0B3DABE8F126E24F1F2DFF797FBD572F /* Pods-HuaDengInHouse */,
+				8D5F10032FEC1062397DA41E9AD4E52C /* Pods-HuaDengInHouse-acknowledgements.markdown */,
+				82BBDD0C83C18433EA487DED077FBE4D /* Pods-HuaDengInHouse-acknowledgements.plist */,
+				9E931E1B2B3BB84BBC5BF10B1939B121 /* Pods-HuaDengInHouse-dummy.m */,
+				88BD1FE9CA48B9A523CED6ADFFBAEA1A /* Pods-HuaDengInHouse.debug.xcconfig */,
+				FA109AD60A1A5FECEF631CED208DE470 /* Pods-HuaDengInHouse.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-HuaDengInHouse";
+			path = "Target Support Files/Pods-HuaDengInHouse";
 			sourceTree = "<group>";
 		};
 		9839EAC70CED91387A4ECA3723A912EE /* Products */ = {
@@ -102,14 +149,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD267A7FFB58247F6EB9D8F2C849B0D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1343E484CFA4178FF9F81D8EA5DE6A0C /* AFNetworking */,
+				9BF6D047CB6AD77B57B38F74B5BBD813 /* TMNavigationController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				11B6BBB40190F643C73B09D50E31657C /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				CD267A7FFB58247F6EB9D8F2C849B0D5 /* Pods */,
 				9839EAC70CED91387A4ECA3723A912EE /* Products */,
-				707373440E57CDB1033BA64955B77829 /* Targets Support Files */,
+				01C26C9039A7F25C2EE2DEA6DA7B55D4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,30 +177,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F5D12F8D63871BE29A7D2B3A989A113D /* Pods-HuaDeng */ = {
-			isa = PBXGroup;
-			children = (
-				83F56FC4C79D6221331D3AEC6FA0B7CD /* Pods-HuaDeng-acknowledgements.markdown */,
-				141E8D32F0C655FE39268AC16C4B0C93 /* Pods-HuaDeng-acknowledgements.plist */,
-				74E5D2F27B9605791B2EEE4E2F028F64 /* Pods-HuaDeng-dummy.m */,
-				4696A05EE246C01F150FC46833F014A7 /* Pods-HuaDeng.debug.xcconfig */,
-				1D473FDCD822C25416D386ED19FFC939 /* Pods-HuaDeng.release.xcconfig */,
-			);
-			name = "Pods-HuaDeng";
-			path = "Target Support Files/Pods-HuaDeng";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D071EA3ECA965422771116EAE334070 /* Headers */ = {
+		95DF7E1E8C9B0CA1328BCF233DC2CFA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F6B69D20CEF49AC5B89DC13F7F1F30A /* Headers */ = {
+		D908305956B46CA00A1929A9D2858B78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,16 +199,18 @@
 /* Begin PBXNativeTarget section */
 		29F92F0DE2FFBD5E18DEC06B49D0E385 /* Pods-HuaDengInHouse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B01307FBE2566E8C61007CFF4C4D2C9 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */;
+			buildConfigurationList = F7B070BBD6182483044D87B0CF192650 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */;
 			buildPhases = (
-				4F6B69D20CEF49AC5B89DC13F7F1F30A /* Headers */,
-				8742A6260914FBB112CF3C5EA655DB1F /* Sources */,
-				34BA7891A6997CD00D6DF6D1B78E8A02 /* Frameworks */,
+				D908305956B46CA00A1929A9D2858B78 /* Headers */,
+				47630838683B9C05D0DEE35C017106E3 /* Sources */,
+				3783EB3DE931B078CFE360940BB82D36 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E93878C673C04BD215E7BC18C998E67D /* PBXTargetDependency */,
+				2EE5F2069872BA2F26EA03C5A37290FD /* PBXTargetDependency */,
+				E6AEFEA3B2EB22F99FD2DA59A4F4D3CB /* PBXTargetDependency */,
+				16E9E116F1EFE793B84FF2E11604BCB4 /* PBXTargetDependency */,
 			);
 			name = "Pods-HuaDengInHouse";
 			productName = "Pods-HuaDengInHouse";
@@ -173,16 +219,18 @@
 		};
 		4D179B355877CA8E65C0E0F9FA8CE9FC /* Pods-HuaDeng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 407D720698B1D07514570A2E3AEAFC6A /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */;
+			buildConfigurationList = AF3348F098E3FF33A7917C13164A2E67 /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */;
 			buildPhases = (
-				4D071EA3ECA965422771116EAE334070 /* Headers */,
-				C23632C51BAFD118A200CBC68187F380 /* Sources */,
-				AAF5489D07E43152D1A039031A5ABA73 /* Frameworks */,
+				95DF7E1E8C9B0CA1328BCF233DC2CFA4 /* Headers */,
+				D802C5052784E501C252BED4D1F41C9C /* Sources */,
+				C405FFAE5AB71D311BCB63EA3A7B3927 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				28D4338B6F7FD85F609B7308537F0082 /* PBXTargetDependency */,
+				C551141686E69F00957BD277481A17CC /* PBXTargetDependency */,
+				5F8FD53927F7F29575B57FCBD05B402B /* PBXTargetDependency */,
+				01339EB5B176DB06113076F823B4FBAA /* PBXTargetDependency */,
 			);
 			name = "Pods-HuaDeng";
 			productName = "Pods-HuaDeng";
@@ -199,7 +247,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -211,7 +259,13 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProjectRef = 1343E484CFA4178FF9F81D8EA5DE6A0C /* AFNetworking */;
+				},
+				{
 					ProjectRef = 1DF43BBFEE721D7D2947A77B1E0DD4D3 /* HuaDengLib */;
+				},
+				{
+					ProjectRef = 9BF6D047CB6AD77B57B38F74B5BBD813 /* TMNavigationController */;
 				},
 			);
 			projectRoot = "";
@@ -223,41 +277,61 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8742A6260914FBB112CF3C5EA655DB1F /* Sources */ = {
+		47630838683B9C05D0DEE35C017106E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598348193C45ADA73B458D7EBE2C6874 /* Pods-HuaDengInHouse-dummy.m in Sources */,
+				BF175FF17EF7259402DB17859109A9BD /* Pods-HuaDengInHouse-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C23632C51BAFD118A200CBC68187F380 /* Sources */ = {
+		D802C5052784E501C252BED4D1F41C9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7DD428F697D6584554F460E2ACEA58D /* Pods-HuaDeng-dummy.m in Sources */,
+				E4B0A4205EBC97B05E8D22BD68EA823C /* Pods-HuaDeng-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28D4338B6F7FD85F609B7308537F0082 /* PBXTargetDependency */ = {
+		01339EB5B176DB06113076F823B4FBAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "HuaDengLib-AppStore";
-			targetProxy = 2BAEBE7473E243CFE313FA9E4DF53A2D /* PBXContainerItemProxy */;
+			name = TMNavigationController;
+			targetProxy = AEEF725464A49B224C4D8CD57CA67C6E /* PBXContainerItemProxy */;
 		};
-		E93878C673C04BD215E7BC18C998E67D /* PBXTargetDependency */ = {
+		16E9E116F1EFE793B84FF2E11604BCB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "HuaDengLib-Enterprise";
-			targetProxy = F56C4C35800F9D7B9E3B44A05DE973CB /* PBXContainerItemProxy */;
+			name = TMNavigationController;
+			targetProxy = C9A44F083FFCB917E026752D4669A5E0 /* PBXContainerItemProxy */;
+		};
+		2EE5F2069872BA2F26EA03C5A37290FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 611C38AF077C2577EC6DBF184C80C391 /* PBXContainerItemProxy */;
+		};
+		5F8FD53927F7F29575B57FCBD05B402B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HuaDengLib-AppStore-Core";
+			targetProxy = 304E785520265E1AA3BE079390A973AB /* PBXContainerItemProxy */;
+		};
+		C551141686E69F00957BD277481A17CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 06FC96F51C7005A5053FE1ADB6C339EB /* PBXContainerItemProxy */;
+		};
+		E6AEFEA3B2EB22F99FD2DA59A4F4D3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HuaDengLib-Core-Enterprise";
+			targetProxy = 4F2EBAA39FA831C56C3F59DA7025C13C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02D4E32F7DC9132A55C5CDB8609880E0 /* Release */ = {
+		394FA7686A282727508DC3AB361A9B05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C016E487FC6DA427E3776685246FDAE8 /* Pods-HuaDengInHouse.release.xcconfig */;
+			baseConfigurationReference = 4C2669E37107DB5C9F036287EF11A808 /* Pods-HuaDeng.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -277,9 +351,9 @@
 			};
 			name = Release;
 		};
-		4489AEE5F5DA3B6FFEC71CF6276ED305 /* Debug */ = {
+		42309D7C587FA7765565C299FF594F4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4696A05EE246C01F150FC46833F014A7 /* Pods-HuaDeng.debug.xcconfig */;
+			baseConfigurationReference = FA109AD60A1A5FECEF631CED208DE470 /* Pods-HuaDengInHouse.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -295,8 +369,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -422,9 +497,9 @@
 			};
 			name = Debug;
 		};
-		F26D5E4EF0859CE52B48E737CB619227 /* Release */ = {
+		D53655C872DA28F444031A6D42C9400B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D473FDCD822C25416D386ED19FFC939 /* Pods-HuaDeng.release.xcconfig */;
+			baseConfigurationReference = 88BD1FE9CA48B9A523CED6ADFFBAEA1A /* Pods-HuaDengInHouse.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -440,13 +515,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		F3CAFC2787CF11ED84517A652D17D0B4 /* Debug */ = {
+		F1ACF9B09EFF673C705DA298A8030882 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFCB5A6C41B9A273586FD1A53967BEEC /* Pods-HuaDengInHouse.debug.xcconfig */;
+			baseConfigurationReference = 433790AB7FB247E52BD99609BE36AD12 /* Pods-HuaDeng.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -468,15 +542,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		407D720698B1D07514570A2E3AEAFC6A /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4489AEE5F5DA3B6FFEC71CF6276ED305 /* Debug */,
-				F26D5E4EF0859CE52B48E737CB619227 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,11 +551,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B01307FBE2566E8C61007CFF4C4D2C9 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */ = {
+		AF3348F098E3FF33A7917C13164A2E67 /* Build configuration list for PBXNativeTarget "Pods-HuaDeng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3CAFC2787CF11ED84517A652D17D0B4 /* Debug */,
-				02D4E32F7DC9132A55C5CDB8609880E0 /* Release */,
+				F1ACF9B09EFF673C705DA298A8030882 /* Debug */,
+				394FA7686A282727508DC3AB361A9B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B070BBD6182483044D87B0CF192650 /* Build configuration list for PBXNativeTarget "Pods-HuaDengInHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53655C872DA28F444031A6D42C9400B /* Debug */,
+				42309D7C587FA7765565C299FF594F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

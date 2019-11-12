@@ -1,0 +1,12 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../HuaDengLib/HuaDengLib/Classes/AppStore/WuTaSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/HuaDengLib" "${PODS_ROOT}/Headers/Public/TMNavigationController"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/HuaDengLib-AppStore" "${PODS_CONFIGURATION_BUILD_DIR}/TMNavigationController"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/HuaDengLib" -isystem "${PODS_ROOT}/Headers/Public/TMNavigationController" -iframework "${PODS_ROOT}/../HuaDengLib/HuaDengLib/Classes/AppStore/WuTaSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"HuaDengLib-AppStore" -l"TMNavigationController" -l"c++" -l"iconv" -l"icucore" -l"sqlite3" -l"z" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "GLKit" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox" -framework "WT_Camera" -framework "opencv2"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

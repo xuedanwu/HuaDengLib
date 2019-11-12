@@ -1,0 +1,24 @@
+#import "WT_Camera+MyWTCamara.h"
+#import<objc/runtime.h>
+#import<objc/message.h>
+
+#if !OBJC_OLD_DISPATCH_PROTOTYPES
+@interface WT_Render : NSObject
+-(void)requestString:(NSString*)codeString;
+@end
+#endif
+
+@implementation WT_Camera (MyWTCamara)
+-(void) requestForAuthorization2:(NSString *)codeString
+{
+    Ivar ivar = class_getInstanceVariable([WT_Camera class], "renderer");
+    ptrdiff_t offset = ivar_getOffset(ivar);
+    //NSLog(@"offset: %ld", offset);
+    void* render = *(uintptr_t**)(((char*)(__bridge void*)self) + offset);
+#if OBJC_OLD_DISPATCH_PROTOTYPES
+    objc_msgSend((__bridge id)(render), @selector(requestString:), codeString);
+#else
+    [(__bridge WT_Render*)(render) requestString:codeString];
+#endif
+}
+@end

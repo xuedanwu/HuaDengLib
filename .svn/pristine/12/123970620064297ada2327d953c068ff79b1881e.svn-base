@@ -1,0 +1,43 @@
+{
+  "name": "HuaDengLib",
+  "version": "0.1.4",
+  "summary": "A short description of HuaDengLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedanwu/HuaDengLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuedanwu": "15618025967@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xuedanwu/HuaDengLib.git",
+    "tag": "0.1.4"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "AppStore",
+      "vendored_frameworks": "HuaDengLib/Classes/AppStore/WuTaSDK/*.{framework}",
+      "resources": [
+        "HuaDengLib/Classes/AppStore/WuTaSDK/pic/**/*.png",
+        "HuaDengLib/Classes/AppStore/WuTaSDK/pic/*.json",
+        "HuaDengLib/Classes/AppStore/WuTaSDK/WT_Resources.bundle"
+      ],
+      "source_files": [
+        "HuaDengLib/Classes/AppStore/*",
+        "HuaDengLib/Classes/AppStore/**/*"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "source_files": [
+        "HuaDengLib/Classes/Enterprise/*"
+      ]
+    }
+  ]
+}

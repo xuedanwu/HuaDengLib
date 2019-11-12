@@ -1,0 +1,71 @@
+{
+	"INITIALVALUE": 0,
+	"KEY_MODULE_SET": [{
+			"ALGORITHM_TAG": "GifTriangles_06",
+			"BLEND_TYPE": "normal",
+			"PASSING_VALUE": 0,
+			"PHOTOS_DATA_SET": [{
+					"PHOTO_FRAMETIME": 1,
+					"PHOTO_H": -427112819,
+					"PHOTO_TX": -2034707381,
+					"PHOTO_TY": -429719857,
+					"PHOTO_VX": -972767739,
+					"PHOTO_VY": -425656625,
+					"PHOTO_W": -428736817,
+				}, {
+					"PHOTO_FRAMETIME": 3,
+					"PHOTO_H": -425015667,
+					"PHOTO_TX": -430833969,
+					"PHOTO_TY": -429719857,
+					"PHOTO_VX": -960119291,
+					"PHOTO_VY": -425656625,
+					"PHOTO_W": -422445361,
+				}, {
+					"PHOTO_FRAMETIME": 5,
+					"PHOTO_H": -420821363,
+					"PHOTO_TX": -2034707381,
+					"PHOTO_TY": -427047283,
+					"PHOTO_VX": -970736123,
+					"PHOTO_VY": -429930867,
+					"PHOTO_W": -423428401,
+				}, {
+					"PHOTO_FRAMETIME": 7,
+					"PHOTO_H": -431307123,
+					"PHOTO_TX": -2034707381,
+					"PHOTO_TY": -2034707381,
+					"PHOTO_VX": -962347515,
+					"PHOTO_VY": -435173747,
+					"PHOTO_W": -436011313,
+				}, {
+					"PHOTO_FRAMETIME": 9,
+					"PHOTO_H": -425015667,
+					"PHOTO_TX": -429719857,
+					"PHOTO_TY": -425015667,
+					"PHOTO_VX": -420952435,
+					"PHOTO_VY": -429930867,
+					"PHOTO_W": -428882291,
+				}, {
+					"PHOTO_FRAMETIME": 11,
+					"PHOTO_H": -429275507,
+					"PHOTO_TX": -429719857,
+					"PHOTO_TY": -2034707381,
+					"PHOTO_VX": -972571131,
+					"PHOTO_VY": -425657649,
+					"PHOTO_W": -420413745,
+				}
+			],
+			"PHOTO_IS_NAME": 1,
+			"PHOTO_NAME": "dicEYES_YanLei2_Mod1_Tex",
+			"REPEAT_TAG": 1,
+			"START_FRAME": 1000,
+			"TRACK_FRAME": 1000
+		}
+	],
+	"LB_NAME": "EMPTY",
+	"LV3_INDEX": 0,
+	"MODULE_COUNT": 0,
+	"SLIDER_SHOWN": 0,
+	"THUMB_IS_NAME": 1,
+	"THUMB_NAME": "EYES_YanLei2_thumb",
+	"textureUrl": "eyes_yanlei2.zip"
+}

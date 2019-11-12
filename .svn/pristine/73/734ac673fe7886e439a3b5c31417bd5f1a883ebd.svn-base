@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HuaDengLib/AppStore (0.1.4)
+  - HuaDengLib/Enterprise (0.1.4)
+  - TMNavigationController (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - HuaDengLib/AppStore (from `../HuaDeng/HuaDengLib`)
+  - HuaDengLib/Enterprise (from `../HuaDeng/HuaDengLib`)
+  - TMNavigationController (~> 0.1.1)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - TMNavigationController
+
+EXTERNAL SOURCES:
+  HuaDengLib:
+    :path: "../HuaDeng/HuaDengLib"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HuaDengLib: cc3e31de0546c7cd1a70da16fcc517e6a74bdb86
+  TMNavigationController: a6d5fdc1ad18142f58704d1405dce693aed311f7
+
+PODFILE CHECKSUM: 5761f79407b63cd85eedfedd583c7de95f29c1c1
+
+COCOAPODS: 1.8.4

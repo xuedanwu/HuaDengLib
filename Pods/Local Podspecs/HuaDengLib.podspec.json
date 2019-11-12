@@ -1,6 +1,6 @@
 {
   "name": "HuaDengLib",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "A short description of HuaDengLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xuedanwu/HuaDengLib",
@@ -13,23 +13,69 @@
   },
   "source": {
     "git": "https://github.com/xuedanwu/HuaDengLib.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
   },
   "requires_arc": true,
+  "default_subspecs": "Core",
+  "static_framework": true,
   "subspecs": [
     {
       "name": "AppStore",
+      "dependencies": {
+        "HuaDengLib/Core": [
+
+        ]
+      },
+      "vendored_frameworks": "HuaDengLib/Classes/AppStore/WuTaSDK/*.{framework}",
+      "resources": [
+        "HuaDengLib/Classes/AppStore/WuTaSDK/pic/**/*.png",
+        "HuaDengLib/Classes/AppStore/WuTaSDK/pic/*.json",
+        "HuaDengLib/Classes/AppStore/WuTaSDK/WT_Resources.bundle"
+      ],
       "source_files": [
-        "HuaDengLib/Classes/AppStore/*"
+        "HuaDengLib/Classes/AppStore/*",
+        "HuaDengLib/Classes/AppStore/**/*"
       ]
     },
     {
       "name": "Enterprise",
+      "dependencies": {
+        "HuaDengLib/Core": [
+
+        ]
+      },
       "source_files": [
         "HuaDengLib/Classes/Enterprise/*"
+      ]
+    },
+    {
+      "name": "Core",
+      "resources": "HuaDengLib/framework/TYRZSDK/*.{bundle}",
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "Security",
+        "CoreGraphics",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "VideoToolbox",
+        "GLKit"
+      ],
+      "libraries": [
+        "icucore",
+        "c++",
+        "sqlite3",
+        "z",
+        "iconv"
+      ],
+      "vendored_frameworks": [
+
+      ],
+      "vendored_libraries": [
+
       ]
     }
   ]
