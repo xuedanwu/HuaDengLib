@@ -1,6 +1,6 @@
 {
   "name": "HuaDengLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HuaDengLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xuedanwu/HuaDengLib",
@@ -13,17 +13,22 @@
   },
   "source": {
     "git": "https://github.com/xuedanwu/HuaDengLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "HuaDengLib/Classes/**/*",
   "subspecs": [
     {
       "name": "AppStore",
       "source_files": [
         "HuaDengLib/Classes/AppStore/**/*"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "source_files": [
+        "HuaDengLib/Classes/Enterprise/**/*"
       ]
     }
   ]

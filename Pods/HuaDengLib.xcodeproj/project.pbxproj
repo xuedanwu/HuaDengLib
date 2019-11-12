@@ -14,11 +14,11 @@
 
 /* Begin PBXFileReference section */
 		0799D0AEEB3B85AC7888130E1BCA1164 /* HuaDengLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaDengLib-dummy.m"; sourceTree = "<group>"; };
+		0FAFFC5ECAB92A782B0D8083F51B5458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		164E72F63943E347290D5BFCEB28DB2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3FC7768DCD3C60EE6FF8806D564F0586 /* HuaDengLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HuaDengLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DCA531CF9A6F1B4612896AF2B01CABF /* libHuaDengLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHuaDengLib.a; path = libHuaDengLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8369BB4004C30EB531ED6959B0BE5D20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A20A67077B5C6E042D1711551770D3D0 /* HuaDengLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaDengLib-prefix.pch"; sourceTree = "<group>"; };
-		B47564E3D48B4D3306F1E3C25014473E /* README */ = {isa = PBXFileReference; includeInIndex = 1; path = README; sourceTree = "<group>"; };
-		B9D8E8C8AC227FE63E0278566DC148B7 /* HuaDengLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HuaDengLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C38733042F4168D2C06AB5BFDC77096C /* HuaDengLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaDengLib.xcconfig; sourceTree = "<group>"; };
 		D336E5A823731C054845B2424108B765 /* SLChatGifModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLChatGifModel.m; path = HuaDengLib/Classes/AppStore/SLChatGifModel.m; sourceTree = "<group>"; };
 		EED3668E48AB99E49489AB5F1E07CE51 /* SLChatGifModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLChatGifModel.h; path = HuaDengLib/Classes/AppStore/SLChatGifModel.h; sourceTree = "<group>"; };
@@ -35,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04686083DD70E79FF8764031841E0FD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7768DCD3C60EE6FF8806D564F0586 /* HuaDengLib.podspec */,
+				164E72F63943E347290D5BFCEB28DB2F /* LICENSE */,
+				0FAFFC5ECAB92A782B0D8083F51B5458 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		57A2E980387CF9E45803D0B646B28490 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,21 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				D8348AC201EFAC8B0DB7CEA961C339C9 /* AppStore */,
-				B95560B0A718B45D68387BD2788AD9F4 /* Pod */,
+				04686083DD70E79FF8764031841E0FD7 /* Pod */,
 				F9901980A4A2F39AD22A4CBE26ABF893 /* Support Files */,
 			);
 			name = HuaDengLib;
 			path = ../HuaDengLib;
-			sourceTree = "<group>";
-		};
-		B95560B0A718B45D68387BD2788AD9F4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B9D8E8C8AC227FE63E0278566DC148B7 /* HuaDengLib.podspec */,
-				8369BB4004C30EB531ED6959B0BE5D20 /* LICENSE */,
-				B47564E3D48B4D3306F1E3C25014473E /* README */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D8348AC201EFAC8B0DB7CEA961C339C9 /* AppStore */ = {
