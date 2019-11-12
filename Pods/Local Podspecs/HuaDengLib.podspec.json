@@ -1,24 +1,30 @@
 {
   "name": "HuaDengLib",
-  "version": "0.0.1",
-  "summary": "A HuaDengLib",
-  "description": "huadeng locallib test",
-  "homepage": "https://gitee.com/ShineLing176",
-  "license": "MIT",
+  "version": "0.1.0",
+  "summary": "A short description of HuaDengLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedanwu/HuaDengLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "Aaron": "987410331@qq.com"
+    "xuedanwu": "15618025967@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xuedanwu/HuaDengLib.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source": {
-    "git": "https://gitee.com/ShineLing176/HuaDengLib.git",
-    "tag": "0.0.1"
-  },
-  "source_files": [
-    "Classes",
-    "Classes/**/*"
-  ],
-  "exclude_files": "Classes/Exclude",
-  "requires_arc": true
+  "source_files": "HuaDengLib/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "AppStore",
+      "source_files": [
+        "HuaDengLib/Classes/AppStore/**/*"
+      ]
+    }
+  ]
 }

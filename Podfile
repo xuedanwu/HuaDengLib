@@ -50,15 +50,15 @@ def my_pods
 end
 
 target 'HuaDeng' do
-    my_pods
+#    my_pods
 #    pod 'HuaDengLib', :path => './HuaDengLib/HuaDengLib'
-    pod 'HuaDengLib/AppStore', :path => '../HuaDengLib/HuaDengLib'
+    pod 'HuaDengLib/AppStore', :path => '../HuaDeng/HuaDengLib'
 end
 
-#target 'HuaDengInHouse' do
+target 'HuaDengInHouse' do
 #    my_pods
-#    pod 'HuaDengLib/Enterprise', :path => '../HuaDengLib/HuaDengLib'
-#end
+    pod 'HuaDengLib/Enterprise', :path => '../HuaDeng/HuaDengLib'
+end
 
 
 install! 'cocoapods', generate_multiple_pod_projects: true

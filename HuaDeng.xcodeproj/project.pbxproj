@@ -27,7 +27,6 @@
 		7BBC0C0823794EE7006A08EE /* HDChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0723794EE7006A08EE /* HDChatVC.m */; };
 		7BBC0C0B23794EF0006A08EE /* HDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0A23794EF0006A08EE /* HDMineVC.m */; };
 		7BBC0C0E237950DE006A08EE /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC0C0D237950DE006A08EE /* UIViewController+Extension.m */; };
-		E026645530D632DF0F67435A /* libPods-HuaDengInHouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */; };
 		E9E248B2561809CFB38132D6 /* libPods-HuaDeng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaDengInHouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDengInHouse.release.xcconfig"; path = "Target Support Files/Pods-HuaDengInHouse/Pods-HuaDengInHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5BA9BFC6357DF74CD36DFA78 /* Pods-HuaDeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDeng.debug.xcconfig"; path = "Target Support Files/Pods-HuaDeng/Pods-HuaDeng.debug.xcconfig"; sourceTree = "<group>"; };
 		7BBC0B1B23792B58006A08EE /* HuaDeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaDeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBC0B1E23792B58006A08EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,7 +88,6 @@
 		7BBC0C0D237950DE006A08EE /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
 		AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaDeng.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41CC240E34392E779F35D0C /* Pods-HuaDeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDeng.release.xcconfig"; path = "Target Support Files/Pods-HuaDeng/Pods-HuaDeng.release.xcconfig"; sourceTree = "<group>"; };
-		B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaDengInHouse.debug.xcconfig"; path = "Target Support Files/Pods-HuaDengInHouse/Pods-HuaDengInHouse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E026645530D632DF0F67435A /* libPods-HuaDengInHouse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +129,6 @@
 			children = (
 				5BA9BFC6357DF74CD36DFA78 /* Pods-HuaDeng.debug.xcconfig */,
 				B41CC240E34392E779F35D0C /* Pods-HuaDeng.release.xcconfig */,
-				B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */,
-				4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -437,7 +430,6 @@
 			isa = PBXGroup;
 			children = (
 				AC0E8FCD3675B02900124BEA /* libPods-HuaDeng.a */,
-				26A5E2F35510C59DA5B105F8 /* libPods-HuaDengInHouse.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -503,7 +495,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BBC0B602379350E006A08EE /* Build configuration list for PBXNativeTarget "HuaDengInHouse" */;
 			buildPhases = (
-				766ABB89C7DCDB3F0E753F96 /* [CP] Check Pods Manifest.lock */,
 				7BBC0B552379350E006A08EE /* Sources */,
 				7BBC0B5A2379350E006A08EE /* Frameworks */,
 				7BBC0B5C2379350E006A08EE /* Resources */,
@@ -595,28 +586,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		766ABB89C7DCDB3F0E753F96 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HuaDengInHouse-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BD5E99D750C2DFF442D8FF5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -924,7 +893,6 @@
 		};
 		7BBC0B612379350E006A08EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B55C97E64B806CDE5A07F72B /* Pods-HuaDengInHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -944,7 +912,6 @@
 		};
 		7BBC0B622379350E006A08EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E219ACB852D6198923A126F /* Pods-HuaDengInHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
